@@ -11,7 +11,7 @@ from typing import Optional
 from fastapi import Depends, FastAPI, Header, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 
-from . import config, database as db, shop_chat
+from . import config, database as db, shop_chat, versions
 from .boss import BossAgent
 from .money_engine import get_balance_cents, list_transactions, record_transaction
 
@@ -50,7 +50,34 @@ def require_token(authorization: str = Header(default="")):
 
 @app.get("/health")
 def health():
-    return {"ok": True, "schema_version": db.SCHEMA_VERSION}
+    return {
+        "ok": True,
+        "app_version": versions.APP_VERSION,
+        "schema_version": db.SCHEMA_VERSION,
+    }
+
+
+@app.get("/v1/version")
+def version():
+    """Handshake endpoint. No token: any caller checks compatibility here
+    before calling a trigger endpoint. The envelope is the same one a
+    426 rejection carries, so a client can compare without a second call."""
+    return versions.version_envelope()
+
+
+async def _declared_client_version(request: Request):
+    """client_version from a trigger body, or None when undeclared.
+
+    Undeclared callers still run — enforcement starts when a caller
+    declares a version, so existing callers keep working unchanged."""
+    try:
+        body = await request.json()
+    except Exception:
+        return None
+    if isinstance(body, dict):
+        v = body.get("client_version")
+        return v if isinstance(v, str) else None
+    return None
 
 
 @app.post("/shop/chat")
@@ -77,7 +104,18 @@ def shop_chat_endpoint(payload: dict, request: Request):
 
 
 @app.post("/swarm/trigger")
-def trigger_cycle(_: bool = Depends(require_token)):
+async def trigger_cycle(request: Request, _: bool = Depends(require_token)):
+    declared = await _declared_client_version(request)
+    problem = versions.client_too_old(declared)
+    if problem:
+        raise HTTPException(
+            status_code=426,
+            detail={
+                "error": "client_too_old",
+                "detail": problem,
+                **versions.version_envelope(),
+            },
+        )
     return BossAgent(db_path=config.DB_PATH).run_full_cycle()
 
 
