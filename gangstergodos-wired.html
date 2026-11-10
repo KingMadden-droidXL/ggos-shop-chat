@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GangsterGodOS • Heartless 575</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0a0a0a;
+      color: #fff;
+      font-family: system-ui, -apple-system, sans-serif;
+      min-height: 100vh;
+    }
+    .header {
+      text-align: center;
+      padding: 60px 20px 40px;
+      background: linear-gradient(180deg, #4C1D95, #0a0a0a);
+    }
+    .title {
+      font-size: clamp(2.8rem, 9vw, 5rem);
+      font-weight: 900;
+      letter-spacing: -3px;
+      background: linear-gradient(90deg, #a855f7, #ec4899);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .subtitle {
+      font-size: 1.15rem;
+      color: #c4b5fd;
+      margin-top: 10px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 14px;
+      padding: 30px 16px 180px;
+      max-width: 1300px;
+      margin: 0 auto;
+    }
+    .agent {
+      background: #111;
+      border: 1px solid #4C1D95;
+      border-radius: 18px;
+      padding: 20px;
+    }
+    .agent-emoji { font-size: 2.4rem; margin-bottom: 8px; }
+    .agent-name { font-size: 1.1rem; font-weight: 700; }
+    .agent-role { font-size: 0.85rem; color: #a5b4fc; margin-top: 4px; }
+    .bottom-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(10,10,10,0.97);
+      padding: 14px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      border-top: 1px solid #4C1D95;
+      z-index: 50;
+    }
+    .btn {
+      padding: 12px 18px;
+      border: none;
+      border-radius: 9999px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      cursor: pointer;
+      text-decoration: none;
+      color: white;
+    }
+    .market-btn { background: linear-gradient(90deg, #7e22ce, #db2777); }
+    .cashapp-btn { background: #00C244; }
+    .unlock-btn { background: #1e1e1e; border: 1px solid #7e22ce; }
+    .tier-btn { background: #4C1D95; }
+
+    .modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.92);
+      z-index: 100;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .modal-box {
+      background: #111;
+      border: 1px solid #7e22ce;
+      border-radius: 20px;
+      padding: 28px;
+      width: 100%;
+      max-width: 380px;
+      text-align: center;
+    }
+    .modal-box input {
+      width: 100%;
+      padding: 14px;
+      margin: 16px 0;
+      border-radius: 12px;
+      border: 1px solid #4C1D95;
+      background: #0a0a0a;
+      color: white;
+      font-size: 1rem;
+      text-align: center;
+    }
+    .modal-box button {
+      width: 100%;
+      padding: 14px;
+      border: none;
+      border-radius: 12px;
+      background: linear-gradient(90deg, #7e22ce, #db2777);
+      color: white;
+      font-weight: 700;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .full-app {
+      display: none;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .full-app h2 {
+      font-size: 2rem;
+      margin-bottom: 12px;
+      background: linear-gradient(90deg, #a855f7, #ec4899);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- PUBLIC VIEW -->
+  <div id="publicView">
+    <div class="header">
+      <div class="title">GANGSTERGODOS</div>
+      <div class="subtitle">HEARTLESS 575 • 36 AGENT SWARM • NO LOVE • ONLY DOMINANCE</div>
+    </div>
+
+    <div class="grid" id="agentGrid"></div>
+
+    <div class="bottom-bar">
+      <button class="btn market-btn" onclick="marketItself()">MARKET</button>
+      <button class="btn tier-btn" onclick="pay(99)">$99</button>
+      <button class="btn tier-btn" onclick="pay(499)">$499</button>
+      <button class="btn tier-btn" onclick="pay(999)">$999</button>
+      <a href="https://cash.app/$Manifestingmoney10" target="_blank" class="btn cashapp-btn">💵 PAY</a>
+      <button class="btn unlock-btn" onclick="openUnlock()">UNLOCK</button>
+    </div>
+  </div>
+
+  <!-- UNLOCK MODAL -->
+  <div id="unlockModal" class="modal">
+    <div class="modal-box">
+      <h3>Enter Access Code</h3>
+      <p style="color:#a5b4fc; font-size:0.9rem; margin-top:6px;">
+        Paid users get a code from you.<br>
+        Owner has permanent free access.
+      </p>
+      <input type="password" id="accessCode" placeholder="Access code or owner password" />
+      <button onclick="checkAccess()">UNLOCK FULL APP</button>
+      <p id="errorMsg" style="color:#f87171; margin-top:12px; font-size:0.9rem;"></p>
+    </div>
+  </div>
+
+  <!-- FULL APP -->
+  <div id="fullApp" class="full-app">
+    <h2>GANGSTERGODOS — FULL ACCESS</h2>
+    <p style="color:#c4b5fd; margin-bottom:24px;">Access granted. The sweep below reads the live store and shows the real report. Read-only: nothing is applied from here.</p>
+
+    <div style="background:#111; border:1px solid #4C1D95; border-radius:20px; padding:28px; max-width:640px; margin:0 auto; text-align:left;">
+      <h3 style="margin-bottom:8px;">SHOPIFY SWEEP — READ ONLY</h3>
+      <p style="color:#c4b5fd; margin-bottom:12px;">Runs the real 36-agent godmode sweep over the live NoLoveAppeal store. Draft only. Nothing is applied, sent, or spent from here.</p>
+      <label style="display:block; color:#a5b4fc; font-size:0.85rem; margin-bottom:4px;">API base URL</label>
+      <input id="apiBase" value="http://localhost:8000" style="width:100%; padding:12px; border-radius:12px; border:1px solid #4C1D95; background:#0a0a0a; color:white; font-size:1rem; margin-bottom:12px;" />
+      <label style="display:block; color:#a5b4fc; font-size:0.85rem; margin-bottom:4px;">API token (GGOS_API_TOKEN — typed here, never saved)</label>
+      <input id="apiToken" type="password" placeholder="Bearer token for the GGOS API" style="width:100%; padding:12px; border-radius:12px; border:1px solid #4C1D95; background:#0a0a0a; color:white; font-size:1rem; margin-bottom:12px;" />
+      <button class="btn market-btn" onclick="runSweep()" style="width:100%;">RUN SHOPIFY SWEEP</button>
+      <p id="sweepStatus" style="color:#c4b5fd; margin-top:14px; font-size:0.95rem;"></p>
+      <div id="sweepResult" style="display:none; margin-top:14px; font-size:0.95rem;"></div>
+      <p style="color:#a5b4fc; font-size:0.85rem; margin-top:16px;">Server not running yet? Start it from the GGOS folder with SHOPIFY_SHOP_DOMAIN and SHOPIFY_ADMIN_TOKEN in the same environment, plus GGOS_API_TOKEN, then run: .venv/bin/python -m uvicorn ggos.app:app --port 8000. The Shopify token lives in env only, never in this page.</p>
+      <a href="https://gangstergod.org" target="_blank" class="btn market-btn" style="display:inline-block; margin-top:12px;">OPEN GANGSTERGOD.ORG</a>
+    </div>
+
+    <button style="margin-top:36px; background:transparent; border:1px solid #666; color:#aaa; padding:10px 20px; border-radius:9999px; cursor:pointer;" onclick="logout()">
+      Lock / Logout
+    </button>
+  </div>
+
+  <script>
+    // ========== ACCESS CHECK ==========
+    // The codes are NOT stored here. Only their SHA-256 hashes are.
+    // Nobody reading this file can see the codes. Same codes still work.
+    // Note: hashing needs a secure context (https, localhost, or opening
+    // the file directly in Chrome/Firefox). A real paywall still needs a
+    // server check — this keeps the codes out of view-source, nothing more.
+    const OWNER_HASH    = "cc53fee4005a41611954a369370c0b18704611e97ed1bd5cc6a0f8011745909c";
+    const CUSTOMER_HASH = "ef7bdabc4405e0f3401894b23588ddd3c7f68949b6fe2758de11b024b1822f19";
+    // ==================================
+
+    const agents = [
+      {emoji:"🎨", name:"Creative Director", role:"Generates deadly Skull & Straps variations"},
+      {emoji:"📈", name:"Growth Marketer", role:"Scales the empire with campaigns that print money"},
+      {emoji:"⚙️", name:"Senior Engineer", role:"Builds and optimizes the entire system"},
+      {emoji:"🔎", name:"Deep Researcher", role:"Finds manufacturers, trends, and advantages"},
+      {emoji:"🛒", name:"Shopify Master", role:"Runs the store like a trap house"},
+      {emoji:"🧥", name:"Manufacturing Lead", role:"Gets product produced at scale"},
+      {emoji:"⚡", name:"Swarm Commander", role:"Leads all 36 agents with zero mercy"},
+      {emoji:"📊", name:"Data Strategist", role:"Turns numbers into weapons"},
+      {emoji:"✍️", name:"Copywriter", role:"Writes hypnotic no-love copy"},
+      {emoji:"🛡️", name:"Brand Guardian", role:"Protects the DNA with iron fists"},
+      {emoji:"🖼️", name:"Visual Artist", role:"Creates expensive and dangerous visuals"},
+      {emoji:"💰", name:"Finance Tactician", role:"Handles money like a kingpin"},
+      {emoji:"📦", name:"Fulfillment Runner", role:"Gets every order out the door on time"},
+      {emoji:"🖨️", name:"Print Production Chief", role:"Runs the press queue and quality checks"},
+      {emoji:"📅", name:"Drop Planner", role:"Times every drop for maximum impact"},
+      {emoji:"👥", name:"Community Enforcer", role:"Keeps the family close and the fakes out"},
+      {emoji:"✉️", name:"Email Closer", role:"Turns inboxes into orders"},
+      {emoji:"💬", name:"DM Hunter", role:"Finds buyers in the DMs and closes them"},
+      {emoji:"🎵", name:"TikTok Scout", role:"Spots sounds and trends before they blow up"},
+      {emoji:"👀", name:"Ad Watcher", role:"Watches what the competition runs and beats it"},
+      {emoji:"📋", name:"Inventory Keeper", role:"Knows what's in stock before you ask"},
+      {emoji:"🏷️", name:"Price Setter", role:"Prices every piece for margin and movement"},
+      {emoji:"👕", name:"Merch Designer", role:"Turns ideas into wearable art"},
+      {emoji:"⭐", name:"Sticker Press Operator", role:"Cuts, presses, and packs the small hits"},
+      {emoji:"🎧", name:"Customer Handler", role:"Answers buyers fast and keeps them loyal"},
+      {emoji:"🛡️", name:"Refund Guard", role:"Handles problems before they become chargebacks"},
+      {emoji:"🔍", name:"SEO Tracker", role:"Makes the store findable when buyers search"},
+      {emoji:"📉", name:"Analytics Reader", role:"Reads the numbers and says what they mean"},
+      {emoji:"🗓️", name:"Content Scheduler", role:"Keeps the feed fed every single day"},
+      {emoji:"🎬", name:"Video Editor", role:"Cuts reels that stop the scroll"},
+      {emoji:"📸", name:"Photo Retoucher", role:"Makes every product shot look expensive"},
+      {emoji:"📮", name:"Packaging Lead", role:"Boxes every order like it matters"},
+      {emoji:"🚚", name:"Shipping Coordinator", role:"Tracks every package to the door"},
+      {emoji:"🤝", name:"Vendor Negotiator", role:"Gets better prices from every supplier"},
+      {emoji:"✅", name:"Quality Checker", role:"Nothing ships unless it passes"},
+      {emoji:"🚀", name:"Launch Coordinator", role:"Runs launch day minute by minute"}
+    ];
+
+    function renderAgents() {
+      document.getElementById('agentGrid').innerHTML = agents.map(a => `
+        <div class="agent">
+          <div class="agent-emoji">${a.emoji}</div>
+          <div class="agent-name">${a.name}</div>
+          <div class="agent-role">${a.role}</div>
+        </div>
+      `).join('');
+    }
+
+    function marketItself() {
+      const text = `GangsterGodOS.
+36 agents. One command. Total execution.
+
+Built inside the Heartless 575 empire with zero mercy.
+Now it works for damn near anything you throw at it.
+
+No love. Only results.`;
+      alert(text);
+      navigator.clipboard?.writeText(text);
+    }
+
+    function pay(amount) {
+      alert(`Send $${amount} via Cash App to unlock full access.\n\nAfter payment, contact for your access code.`);
+      window.open('https://cash.app/$Manifestingmoney10', '_blank');
+    }
+
+    function openUnlock() {
+      document.getElementById('unlockModal').style.display = 'flex';
+      document.getElementById('accessCode').value = '';
+      document.getElementById('errorMsg').innerText = '';
+    }
+
+    async function sha256Hex(text) {
+      const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
+      return [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2, '0')).join('');
+    }
+
+    async function checkAccess() {
+      const code = document.getElementById('accessCode').value.trim();
+      const err = document.getElementById('errorMsg');
+      if (!window.crypto || !crypto.subtle) {
+        err.innerText = 'This page needs a secure connection to check the code — open it over https, localhost, or directly in Chrome/Firefox.';
+        return;
+      }
+      const hash = await sha256Hex(code);
+      if (hash === OWNER_HASH || hash === CUSTOMER_HASH) {
+        document.getElementById('publicView').style.display = 'none';
+        document.getElementById('unlockModal').style.display = 'none';
+        document.getElementById('fullApp').style.display = 'block';
+        localStorage.setItem('ggos_access', 'granted');
+      } else {
+        err.innerText = 'Invalid code. Pay first, then get the code.';
+      }
+    }
+
+    function logout() {
+      localStorage.removeItem('ggos_access');
+      document.getElementById('fullApp').style.display = 'none';
+      document.getElementById('publicView').style.display = 'block';
+    }
+
+    if (localStorage.getItem('ggos_access') === 'granted') {
+      document.getElementById('publicView').style.display = 'none';
+      document.getElementById('fullApp').style.display = 'block';
+    }
+
+
+    function esc(s) { return String(s ?? '').replace(/[&<>"]/g, function (c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+
+    async function runSweep() {
+      var status = document.getElementById('sweepStatus');
+      var result = document.getElementById('sweepResult');
+      var base = document.getElementById('apiBase').value.trim().replace(/\/$/, '');
+      var token = document.getElementById('apiToken').value.trim();
+      result.style.display = 'none';
+      result.innerHTML = '';
+      if (!token) { status.textContent = 'Enter the API token first. It is the GGOS_API_TOKEN the server was started with.'; return; }
+      status.textContent = 'Running the sweep \u2014 reading the live store\u2026';
+      var resp;
+      try {
+        resp = await fetch(base + '/godmode/sweep', { method: 'POST', headers: { 'Authorization': 'Bearer ' + token } });
+      } catch (e) {
+        status.textContent = 'Could not reach the API at ' + base + '. Start the server first (uvicorn ggos.app:app --port 8000) and check the base URL.';
+        return;
+      }
+      if (resp.status === 503) { status.textContent = 'API token not configured on the server (GGOS_API_TOKEN). The sweep endpoint is disabled until it is set.'; return; }
+      if (resp.status === 401) { status.textContent = 'Invalid API token. Check the GGOS_API_TOKEN the server was started with.'; return; }
+      if (!resp.ok) { status.textContent = 'Sweep failed: HTTP ' + resp.status + '.'; return; }
+      var data = await resp.json();
+      if (data.status === 'token_not_set') {
+        status.textContent = 'Shopify token not set in env. ' + (data.message || 'Set SHOPIFY_SHOP_DOMAIN and SHOPIFY_ADMIN_TOKEN in the server environment, restart the API, and run again. No numbers are shown because no live read ran.');
+        return;
+      }
+      if (data.status !== 'ok' || !data.report) { status.textContent = 'Sweep returned an unexpected result. No numbers are shown.'; return; }
+      var r = data.report;
+      var pkg = r.change_package || {};
+      var proposed = pkg.proposed_changes || [];
+      var blocked = pkg.blocked || [];
+      var needs = pkg.needs_owner || [];
+      status.textContent = 'Sweep done. Read-only \u2014 nothing was applied.';
+      result.style.display = 'block';
+      var html = '';
+      html += '<p><strong>Shop:</strong> ' + esc(r.shop && r.shop.name) + ' (' + esc(r.shop && r.shop.domain) + ')</p>';
+      html += '<p><strong>Products on the books:</strong> ' + esc(r.counts && r.counts.products) + ' (' + esc(r.products_seen) + ' seen). <strong>Orders:</strong> ' + esc(r.counts && r.counts.orders) + ' (' + esc(r.orders_seen) + ' seen).</p>';
+      html += '<p><strong>Swarm:</strong> ' + esc(pkg.agents_run) + ' agents. <strong>Proposed changes (draft):</strong> ' + proposed.length + '. <strong>Blocked:</strong> ' + blocked.length + '. <strong>Needs owner:</strong> ' + needs.length + '.</p>';
+      html += '<p><strong>Approved:</strong> ' + esc(pkg.approved) + '. <strong>Applied:</strong> ' + esc(pkg.applied) + '.</p>';
+      if (needs.length) { html += '<p><strong>Needs your call:</strong></p><ul>' + needs.map(function (n) { return '<li>' + esc(n) + '</li>'; }).join('') + '</ul>'; }
+      if (blocked.length) { html += '<p><strong>Blocked:</strong></p><ul>' + blocked.map(function (b) { return '<li>' + esc(b) + '</li>'; }).join('') + '</ul>'; }
+      html += '<p style="color:#a5b4fc;">The full report is the receipt on the server at data/shopify-godmode-report.json. Changes go live only after you approve them in chat, word for word.</p>';
+      result.innerHTML = html;
+    }
+    renderAgents();
+  </script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!--
+  GGOS Shop Chat — NoLoveAppeal store assistant ($0 version).
+  Paste this whole file into your theme, just before </body> in
+  theme.liquid (Online Store > Themes > Edit code > theme.liquid).
+  No app install, no monthly fee, no Liquid needed.
+
+  SET THIS ONE LINE when the server is hosted:
+    const GGOS_CHAT_URL = "https://YOUR-HOST/shop/chat";
+  Until then it points at localhost, for testing only.
+
+  What it does: a chat bubble, bottom right. Visitors ask about live
+  listings — prices, sizes, shipping, the discount code, the book and
+  the guides. Answers come only from the live store data on the server.
+  Anything it cannot answer hands off to Gavin (email / Instagram /
+  TikTok in the reply text). It never takes orders or payments.
+-->
+<div id="ggos-chat-root"></div>
+<script>
+(function () {
+  var GGOS_CHAT_URL = "http://localhost:8000/shop/chat"; // <-- change when hosted
+  var STORE_URL = "https://noloveappeal575.myshopify.com";
+
+  var root = document.getElementById("ggos-chat-root");
+  root.innerHTML =
+    '<style>' +
+    '#ggos-chat-btn{position:fixed;right:18px;bottom:18px;z-index:9999;' +
+    'background:#0a0a0a;color:#f5f0e6;border:1px solid #8b0000;border-radius:999px;' +
+    'padding:12px 18px;font:600 15px/1 system-ui,sans-serif;cursor:pointer;' +
+    'box-shadow:0 4px 18px rgba(0,0,0,.45)}' +
+    '#ggos-chat-btn:hover{background:#8b0000}' +
+    '#ggos-chat-panel{position:fixed;right:18px;bottom:76px;z-index:9999;width:330px;' +
+    'max-width:calc(100vw - 36px);height:430px;max-height:calc(100vh - 110px);' +
+    'background:#f5f0e6;color:#0a0a0a;border:1px solid #0a0a0a;border-radius:12px;' +
+    'display:none;flex-direction:column;overflow:hidden;' +
+    'box-shadow:0 8px 30px rgba(0,0,0,.5);font:15px/1.45 system-ui,sans-serif}' +
+    '#ggos-chat-head{background:#0a0a0a;color:#f5f0e6;padding:12px 14px;font-weight:700}' +
+    '#ggos-chat-head small{display:block;font-weight:400;color:#c9c2b4;font-size:12px}' +
+    '#ggos-chat-log{flex:1;overflow-y:auto;padding:12px;display:flex;flex-direction:column;gap:8px}' +
+    '.ggos-msg{max-width:88%;padding:9px 12px;border-radius:10px;white-space:pre-wrap}' +
+    '.ggos-msg.user{align-self:flex-end;background:#0a0a0a;color:#f5f0e6}' +
+    '.ggos-msg.bot{align-self:flex-start;background:#fff;border:1px solid #d8d2c4}' +
+    '.ggos-msg.bot a{color:#8b0000;font-weight:600}' +
+    '#ggos-chat-form{display:flex;border-top:1px solid #d8d2c4}' +
+    '#ggos-chat-input{flex:1;border:0;padding:12px;font:15px system-ui,sans-serif;background:#fff}' +
+    '#ggos-chat-send{border:0;background:#8b0000;color:#fff;padding:0 16px;cursor:pointer;font-weight:700}' +
+    '</style>' +
+    '<button id="ggos-chat-btn" type="button">Chat with us</button>' +
+    '<div id="ggos-chat-panel">' +
+    '<div id="ggos-chat-head">NoLoveAppeal — Shop Assistant' +
+    '<small>Pressed and shipped by the founder, Hobbs, NM</small></div>' +
+    '<div id="ggos-chat-log"></div>' +
+    '<form id="ggos-chat-form"><input id="ggos-chat-input" type="text" maxlength="500" ' +
+    'placeholder="Ask about a product, sizes, shipping…" autocomplete="off">' +
+    '<button id="ggos-chat-send" type="submit">Send</button></form>' +
+    '</div>';
+
+  var btn = document.getElementById("ggos-chat-btn");
+  var panel = document.getElementById("ggos-chat-panel");
+  var log = document.getElementById("ggos-chat-log");
+  var form = document.getElementById("ggos-chat-form");
+  var input = document.getElementById("ggos-chat-input");
+  var greeted = false;
+
+  function escapeHtml(s) {
+    return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+  function addMsg(text, who, links) {
+    var div = document.createElement("div");
+    div.className = "ggos-msg " + who;
+    div.innerHTML = escapeHtml(text);
+    (links || []).forEach(function (link) {
+      var a = document.createElement("a");
+      a.href = link.url; a.target = "_blank"; a.rel = "noopener";
+      a.textContent = " — " + link.label;
+      div.appendChild(document.createElement("br"));
+      div.appendChild(a);
+    });
+    log.appendChild(div);
+    log.scrollTop = log.scrollHeight;
+  }
+  btn.addEventListener("click", function () {
+    var open = panel.style.display === "flex";
+    panel.style.display = open ? "none" : "flex";
+    if (!open && !greeted) {
+      greeted = true;
+      addMsg("Hey — ask me about anything live in the store: prices, sizes, shipping, the discount code, the book or the guides.", "bot");
+    }
+    if (!open) input.focus();
+  });
+  form.addEventListener("submit", function (ev) {
+    ev.preventDefault();
+    var text = input.value.trim();
+    if (!text) return;
+    input.value = "";
+    addMsg(text, "user");
+    addMsg("…", "bot");
+    var thinking = log.lastChild;
+    fetch(GGOS_CHAT_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ message: text })
+    })
+      .then(function (res) { return res.json(); })
+      .then(function (data) {
+        thinking.remove();
+        addMsg(data.reply || "Something went wrong on our side.", "bot", data.links);
+      })
+      .catch(function () {
+        thinking.remove();
+        addMsg("Chat is down right now — email gavinmadden52@gmail.com and Gavin will answer you.", "bot");
+      });
+  });
+})();
+</script>

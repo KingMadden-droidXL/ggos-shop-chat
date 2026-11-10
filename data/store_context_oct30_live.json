@@ -1,0 +1,1285 @@
+{
+  "source": "shopify-live",
+  "date": "2026-10-30",
+  "products": [
+    {
+      "createdAt": "2026-10-05T07:15:02Z",
+      "description": "Heartless 575 is where NoLoveAppeal began \u2014 an ornate skull wrapped in blood-red roses and thorns, set in a baroque frame. A broken heart rests at the center of it all. Elegant, cold, and finished. Nothing here is accidental.Pressed by hand in small batches. No mass production, no middlemen \u2014 just the press, the ink, and the design. Hand-pressed to order in small batches Heavyweight black cotton tee Premium transfer print with a soft hand feel True to size \u2014 size up for a relaxed fit Care: Machine wash cold, inside out. Tumble dry low. Never iron directly on the print.",
+      "featuredMedia": {
+        "preview": {
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0997/7187/5635/files/heartless-575-tee-mockup_e7324660-2856-42d2-9d53-85a6152d6648.png?v=1791309398"
+          }
+        }
+      },
+      "handle": "heartless-575",
+      "id": "gid://shopify/Product/15400019525939",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "26.99"
+        }
+      },
+      "status": "ACTIVE",
+      "tags": [
+        "Drop 001",
+        "NoLoveAppeal",
+        "Wave 1"
+      ],
+      "title": "Heartless 575",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "26.99",
+              "sku": "NLA-H575-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "price": "26.99",
+              "sku": "NLA-H575-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "price": "26.99",
+              "sku": "NLA-H575-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "price": "26.99",
+              "sku": "NLA-H575-XL",
+              "title": "XL"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "createdAt": "2026-10-05T07:15:15Z",
+      "description": "A heart in shattered chains. 51/50 \u2014 a split that never quite resolves, a score nobody settled. Trustless is the coldest piece in the drop: ornate, heavy, and finished with the whole world. Wear it like you mean it.The meaning of the number is yours to carry. We pressed it. You decide what it weighs.Pressed by hand in small batches. No mass production, no middlemen \u2014 just the press, the ink, and the design. Hand-pressed to order in small batches Heavyweight black cotton tee Premium transfer print with a soft hand feel True to size \u2014 size up for a relaxed fit Care: Machine wash cold, inside out. Tumble dry low. Never iron directly on the print.",
+      "featuredMedia": {
+        "preview": {
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0997/7187/5635/files/nla-trustless-tee-full-d1543080.png?v=1793315029"
+          }
+        }
+      },
+      "handle": "trustless-51-50",
+      "id": "gid://shopify/Product/15400020279603",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "26.99"
+        }
+      },
+      "status": "ACTIVE",
+      "tags": [
+        "Drop 001",
+        "NoLoveAppeal",
+        "Wave 1"
+      ],
+      "title": "Trustless 51/50",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "26.99",
+              "sku": "NLA-T5150-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "price": "26.99",
+              "sku": "NLA-T5150-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "price": "26.99",
+              "sku": "NLA-T5150-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "price": "26.99",
+              "sku": "NLA-T5150-XL",
+              "title": "XL"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "createdAt": "2026-10-05T07:15:43Z",
+      "description": "Veil is the quietest piece in the drop \u2014 and the sharpest. A mourning veil rendered in fine silver linework, ornate and untouchable. No noise, no excess. Just grief, finished beautifully.The one for people who do not need to be loud to be seen.Pressed by hand in small batches. No mass production, no middlemen \u2014 just the press, the ink, and the design. Hand-pressed to order in small batches Heavyweight black cotton tee Premium transfer print with a soft hand feel True to size \u2014 size up for a relaxed fit Care: Machine wash cold, inside out. Tumble dry low. Never iron directly on the print.",
+      "featuredMedia": {
+        "preview": {
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0997/7187/5635/files/media-generation-veil-tee-mockup-0-c6d7f5f8-7e95-42a9-9bac-fcdecfc022dc.webp?v=1791500806"
+          }
+        }
+      },
+      "handle": "veil",
+      "id": "gid://shopify/Product/15400022016307",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "26.99"
+        }
+      },
+      "status": "ACTIVE",
+      "tags": [
+        "Drop 001",
+        "NoLoveAppeal",
+        "Wave 1"
+      ],
+      "title": "Veil",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "26.99",
+              "sku": "NLA-VEIL-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "price": "26.99",
+              "sku": "NLA-VEIL-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "price": "26.99",
+              "sku": "NLA-VEIL-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "price": "26.99",
+              "sku": "NLA-VEIL-XL",
+              "title": "XL"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "createdAt": "2026-10-08T22:46:23Z",
+      "description": "",
+      "featuredMedia": {
+        "preview": {
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0997/7187/5635/files/nla-teddy-tee-full-17e8e618.png?v=1793315029"
+          }
+        }
+      },
+      "handle": "teddy-tee-deep-purple",
+      "id": "gid://shopify/Product/15408024551731",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "31.75"
+        }
+      },
+      "status": "ACTIVE",
+      "tags": [],
+      "title": "Teddy Tee \u2014 Deep Purple",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "31.75",
+              "sku": null,
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "price": "31.75",
+              "sku": null,
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "price": "31.75",
+              "sku": null,
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "price": "31.75",
+              "sku": null,
+              "title": "XL"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "createdAt": "2026-10-08T22:46:29Z",
+      "description": "",
+      "featuredMedia": {
+        "preview": {
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0997/7187/5635/files/nla-teddy-shorts-full-e9c1213f.png?v=1793315029"
+          }
+        }
+      },
+      "handle": "teddy-shorts-deep-purple",
+      "id": "gid://shopify/Product/15408024584499",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "34.99"
+        }
+      },
+      "status": "ACTIVE",
+      "tags": [],
+      "title": "Teddy Shorts \u2014 Deep Purple",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "34.99",
+              "sku": null,
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "price": "34.99",
+              "sku": null,
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "price": "34.99",
+              "sku": null,
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "price": "34.99",
+              "sku": null,
+              "title": "XL"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "createdAt": "2026-10-08T22:46:29Z",
+      "description": "",
+      "featuredMedia": {
+        "preview": {
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0997/7187/5635/files/nla-teddy-hoodie-full-0b473058.png?v=1793315028"
+          }
+        }
+      },
+      "handle": "teddy-hoodie-deep-purple",
+      "id": "gid://shopify/Product/15408024617267",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "39.99"
+        }
+      },
+      "status": "ACTIVE",
+      "tags": [],
+      "title": "Teddy Hoodie \u2014 Deep Purple",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "39.99",
+              "sku": null,
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "price": "39.99",
+              "sku": null,
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "price": "39.99",
+              "sku": null,
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "price": "39.99",
+              "sku": null,
+              "title": "XL"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "createdAt": "2026-10-08T22:46:29Z",
+      "description": "",
+      "featuredMedia": {
+        "preview": {
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0997/7187/5635/files/nla-teddy-joggers-full-a485ce99.png?v=1793315028"
+          }
+        }
+      },
+      "handle": "teddy-joggers-deep-purple",
+      "id": "gid://shopify/Product/15408024650035",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "44.99"
+        }
+      },
+      "status": "ACTIVE",
+      "tags": [],
+      "title": "Teddy Joggers \u2014 Deep Purple",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "44.99",
+              "sku": null,
+              "title": "XL"
+            }
+          },
+          {
+            "node": {
+              "price": "44.99",
+              "sku": null,
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "price": "44.99",
+              "sku": null,
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "price": "44.99",
+              "sku": null,
+              "title": "L"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "createdAt": "2026-10-27T21:53:41Z",
+      "description": "Available in two sizes with an elastic stretch band, this hat is a sure winner in comfort! It has an athletic shape with a curved visor. \u2022 63% polyester, 34% cotton, 3% spandex twill \u2022 Structured, 6-panel, mid-profile (with a low-profile embroidery area) \u2022 6 embroidered eyelets \u2022 Stretch band \u2022 Silver undervisor \u2022 Head circumference: 22\u201d\u201323\u215e\u201d (55.9 cm\u201360.6 cm) \u2022 Blank product sourced from Vietnam or Bangladesh",
+      "featuredMedia": {
+        "preview": {
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0997/7187/5635/files/closed-back-structured-cap-multicam-black-front-6ae11d58d79a7.jpg?v=1793138024"
+          }
+        }
+      },
+      "handle": "structured-twill-cap",
+      "id": "gid://shopify/Product/15447554752819",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "19.75"
+        }
+      },
+      "status": "ACTIVE",
+      "tags": [],
+      "title": "Structured Twill Cap",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "19.75",
+              "sku": "2870419_15897",
+              "title": "S/M"
+            }
+          },
+          {
+            "node": {
+              "price": "19.75",
+              "sku": "2870419_15898",
+              "title": "L/XL"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "createdAt": "2026-10-28T00:39:14Z",
+      "description": "Black hoodie with the Heartless 575 artwork large on the back. Front is plain.Made to order \u2014 pressed and shipped by the founder.",
+      "featuredMedia": {
+        "preview": {
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0997/7187/5635/files/heartless-575-hoodie-full-mockup.jpg?v=1793147957"
+          }
+        }
+      },
+      "handle": "heartless-575-hoodie",
+      "id": "gid://shopify/Product/15447622254899",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "49.99"
+        }
+      },
+      "status": "ACTIVE",
+      "tags": [
+        "Heartless 575",
+        "NoLoveAppeal"
+      ],
+      "title": "Heartless 575 Hoodie",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "49.99",
+              "sku": "NLA-H575H-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "price": "49.99",
+              "sku": "NLA-H575H-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "price": "49.99",
+              "sku": "NLA-H575H-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "price": "49.99",
+              "sku": "NLA-H575H-XL",
+              "title": "XL"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "createdAt": "2026-10-28T04:18:43Z",
+      "description": "The next evolution of the Heartless 575 drop. Heavyweight black hoodie built for the streets \u2014 boxy oversized fit with the full ornate skull, blood-red roses, and thorns large across the back. Small left-chest 575 mark on the front. Clean. Cold. Made to order and pressed by the founder.No noise. Just presence.",
+      "featuredMedia": null,
+      "handle": "heartless-575-oversized-heavyweight-hoodie",
+      "id": "gid://shopify/Product/15447888036147",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "54.99"
+        }
+      },
+      "status": "DRAFT",
+      "tags": [
+        "Heartless 575",
+        "Heavyweight",
+        "Hoodie",
+        "NoLoveAppeal",
+        "Oversized",
+        "Wave 2"
+      ],
+      "title": "Heartless 575 Oversized Heavyweight Hoodie",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "54.99",
+              "sku": "NLA-H575OH-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "price": "54.99",
+              "sku": "NLA-H575OH-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "price": "54.99",
+              "sku": "NLA-H575OH-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "price": "54.99",
+              "sku": "NLA-H575OH-XL",
+              "title": "XL"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "createdAt": "2026-10-28T04:18:46Z",
+      "description": "Trustless turned into armor. Charcoal zip-up hoodie with the shattered heart locked in ornate chains across the back. Front carries a minimal \"TRUSTLESS\" mark over the zipper. 51/50 energy that never settles.Made to order \u2014 pressed and shipped by the founder. Higher ticket, colder statement.",
+      "featuredMedia": null,
+      "handle": "trustless-chains-zip-up-hoodie",
+      "id": "gid://shopify/Product/15447888167219",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "59.99"
+        }
+      },
+      "status": "DRAFT",
+      "tags": [
+        "51/50",
+        "Hoodie",
+        "NoLoveAppeal",
+        "Trustless",
+        "Wave 2",
+        "Zip-Up"
+      ],
+      "title": "Trustless Chains Zip-Up Hoodie",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "59.99",
+              "sku": "NLA-TCHAIN-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "price": "59.99",
+              "sku": "NLA-TCHAIN-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "price": "59.99",
+              "sku": "NLA-TCHAIN-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "price": "59.99",
+              "sku": "NLA-TCHAIN-XL",
+              "title": "XL"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "createdAt": "2026-10-28T04:18:49Z",
+      "description": "The quietest piece, now heavier. Black hoodie with the mourning veil rendered in fine silver linework \u2014 large on the back, small and sharp on the left chest. Ornate. Untouchable. No noise.Made to order and pressed by the founder. For the ones who move in silence.",
+      "featuredMedia": null,
+      "handle": "veil-mourning-hoodie",
+      "id": "gid://shopify/Product/15447888265523",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "54.99"
+        }
+      },
+      "status": "DRAFT",
+      "tags": [
+        "Hoodie",
+        "NoLoveAppeal",
+        "Silver Linework",
+        "Veil",
+        "Wave 2"
+      ],
+      "title": "Veil Mourning Hoodie",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "54.99",
+              "sku": "NLA-VEILH-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "price": "54.99",
+              "sku": "NLA-VEILH-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "price": "54.99",
+              "sku": "NLA-VEILH-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "price": "54.99",
+              "sku": "NLA-VEILH-XL",
+              "title": "XL"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "createdAt": "2026-10-28T04:18:53Z",
+      "description": "Bold statement piece for Wave 2. Black (or washed black) tee with \"NO LOVE. STILL HERE.\" in strong, slightly distressed typography. Small ornate skull or rose accent keeps it locked to the NoLoveAppeal language.Front or back print options in the art. Made to order \u2014 pressed by the founder.",
+      "featuredMedia": null,
+      "handle": "no-love-still-here-manifesto-tee",
+      "id": "gid://shopify/Product/15447888396595",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "29.99"
+        }
+      },
+      "status": "DRAFT",
+      "tags": [
+        "Graphic Tee",
+        "Manifesto",
+        "NoLoveAppeal",
+        "Slogan",
+        "Wave 2"
+      ],
+      "title": "No Love / Still Here Manifesto Tee",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "29.99",
+              "sku": "NLA-NLS H-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "price": "29.99",
+              "sku": "NLA-NLS H-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "price": "29.99",
+              "sku": "NLA-NLS H-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "price": "29.99",
+              "sku": "NLA-NLS H-XL",
+              "title": "XL"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "createdAt": "2026-10-28T04:21:50Z",
+      "description": "Wave 2 manifesto. Black tee with bold \"HEARTLESS BY CHOICE\" typography. Small ornate skull or rose accent keeps it locked to the NoLoveAppeal language. Clean. Cold. Made to order and pressed by the founder.",
+      "featuredMedia": null,
+      "handle": "heartless-by-choice-tee",
+      "id": "gid://shopify/Product/15447891575091",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "29.99"
+        }
+      },
+      "status": "DRAFT",
+      "tags": [
+        "Graphic Tee",
+        "Heartless",
+        "Manifesto",
+        "NoLoveAppeal",
+        "Slogan",
+        "Wave 2"
+      ],
+      "title": "Heartless By Choice Tee",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "29.99",
+              "sku": "NLA-HBC-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "price": "29.99",
+              "sku": "NLA-HBC-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "price": "29.99",
+              "sku": "NLA-HBC-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "price": "29.99",
+              "sku": "NLA-HBC-XL",
+              "title": "XL"
+            }
+          },
+          {
+            "node": {
+              "price": "31.99",
+              "sku": "NLA-HBC-2XL",
+              "title": "2XL"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "createdAt": "2026-10-28T04:21:53Z",
+      "description": "Wave 2 manifesto. Black tee with strong \"TRUST NOTHING. MOVE ANYWAY.\" text. Minimal ornate accent. Street-level statement that matches the Trustless energy. Made to order \u2014 pressed by the founder.",
+      "featuredMedia": null,
+      "handle": "trust-nothing-move-anyway-tee",
+      "id": "gid://shopify/Product/15447891640627",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "29.99"
+        }
+      },
+      "status": "DRAFT",
+      "tags": [
+        "Graphic Tee",
+        "Manifesto",
+        "NoLoveAppeal",
+        "Slogan",
+        "Trustless",
+        "Wave 2"
+      ],
+      "title": "Trust Nothing. Move Anyway. Tee",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "29.99",
+              "sku": "NLA-TNMA-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "price": "29.99",
+              "sku": "NLA-TNMA-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "price": "29.99",
+              "sku": "NLA-TNMA-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "price": "29.99",
+              "sku": "NLA-TNMA-XL",
+              "title": "XL"
+            }
+          },
+          {
+            "node": {
+              "price": "31.99",
+              "sku": "NLA-TNMA-2XL",
+              "title": "2XL"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "createdAt": "2026-10-28T04:22:52Z",
+      "description": "The next evolution of the Heartless 575 drop. Heavyweight black hoodie built for the streets \u2014 boxy oversized fit with the full ornate skull, blood-red roses, and thorns large across the back. Small left-chest 575 mark on the front. Clean. Cold. Made to order and pressed by the founder.No noise. Just presence.",
+      "featuredMedia": null,
+      "handle": "heartless-575-oversized-heavyweight-hoodie-1",
+      "id": "gid://shopify/Product/15447892033843",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "54.99"
+        }
+      },
+      "status": "DRAFT",
+      "tags": [
+        "Heartless 575",
+        "Heavyweight",
+        "Hoodie",
+        "NoLoveAppeal",
+        "Oversized",
+        "Wave 2"
+      ],
+      "title": "Heartless 575 Oversized Heavyweight Hoodie",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "54.99",
+              "sku": "NLA-H575OH-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "price": "54.99",
+              "sku": "NLA-H575OH-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "price": "54.99",
+              "sku": "NLA-H575OH-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "price": "54.99",
+              "sku": "NLA-H575OH-XL",
+              "title": "XL"
+            }
+          },
+          {
+            "node": {
+              "price": "57.99",
+              "sku": "NLA-H575OH-2XL",
+              "title": "2XL"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "createdAt": "2026-10-28T04:22:55Z",
+      "description": "Trustless turned into armor. Charcoal zip-up hoodie with the shattered heart locked in ornate chains across the back. Front carries a minimal \"TRUSTLESS\" mark over the zipper. 51/50 energy that never settles.Made to order \u2014 pressed and shipped by the founder. Higher ticket, colder statement.",
+      "featuredMedia": null,
+      "handle": "trustless-chains-zip-up-hoodie-1",
+      "id": "gid://shopify/Product/15447892066611",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "59.99"
+        }
+      },
+      "status": "DRAFT",
+      "tags": [
+        "51/50",
+        "Hoodie",
+        "NoLoveAppeal",
+        "Trustless",
+        "Wave 2",
+        "Zip-Up"
+      ],
+      "title": "Trustless Chains Zip-Up Hoodie",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "59.99",
+              "sku": "NLA-TCHAIN-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "price": "59.99",
+              "sku": "NLA-TCHAIN-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "price": "59.99",
+              "sku": "NLA-TCHAIN-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "price": "59.99",
+              "sku": "NLA-TCHAIN-XL",
+              "title": "XL"
+            }
+          },
+          {
+            "node": {
+              "price": "62.99",
+              "sku": "NLA-TCHAIN-2XL",
+              "title": "2XL"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "createdAt": "2026-10-28T04:22:59Z",
+      "description": "The quietest piece, now heavier. Black hoodie with the mourning veil rendered in fine silver linework \u2014 large on the back, small and sharp on the left chest. Ornate. Untouchable. No noise.Made to order and pressed by the founder. For the ones who move in silence.",
+      "featuredMedia": null,
+      "handle": "veil-mourning-hoodie-1",
+      "id": "gid://shopify/Product/15447892099379",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "54.99"
+        }
+      },
+      "status": "DRAFT",
+      "tags": [
+        "Hoodie",
+        "NoLoveAppeal",
+        "Silver Linework",
+        "Veil",
+        "Wave 2"
+      ],
+      "title": "Veil Mourning Hoodie",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "54.99",
+              "sku": "NLA-VEILH-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "price": "54.99",
+              "sku": "NLA-VEILH-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "price": "54.99",
+              "sku": "NLA-VEILH-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "price": "54.99",
+              "sku": "NLA-VEILH-XL",
+              "title": "XL"
+            }
+          },
+          {
+            "node": {
+              "price": "57.99",
+              "sku": "NLA-VEILH-2XL",
+              "title": "2XL"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "createdAt": "2026-10-28T04:23:02Z",
+      "description": "Bold statement piece for Wave 2. Black (or washed black) tee with \"NO LOVE. STILL HERE.\" in strong, slightly distressed typography. Small ornate skull or rose accent keeps it locked to the NoLoveAppeal language.Front or back print options in the art. Made to order \u2014 pressed by the founder.",
+      "featuredMedia": null,
+      "handle": "no-love-still-here-manifesto-tee-1",
+      "id": "gid://shopify/Product/15447892164915",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "29.99"
+        }
+      },
+      "status": "DRAFT",
+      "tags": [
+        "Graphic Tee",
+        "Manifesto",
+        "NoLoveAppeal",
+        "Slogan",
+        "Wave 2"
+      ],
+      "title": "No Love / Still Here Manifesto Tee",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "29.99",
+              "sku": "NLA-NLSH-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "price": "29.99",
+              "sku": "NLA-NLSH-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "price": "29.99",
+              "sku": "NLA-NLSH-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "price": "29.99",
+              "sku": "NLA-NLSH-XL",
+              "title": "XL"
+            }
+          },
+          {
+            "node": {
+              "price": "31.99",
+              "sku": "NLA-NLSH-2XL",
+              "title": "2XL"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "createdAt": "2026-10-28T04:38:38Z",
+      "description": "Black tee. \u201cNO LOVE. STILL HERE.\u201d in distressed bone lettering, with ornate filigree and a blood-red rose.Made to order. Pressed and shipped by the founder.",
+      "featuredMedia": {
+        "preview": {
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0997/7187/5635/files/no-love-still-here-tee.jpg?v=1793162321"
+          }
+        }
+      },
+      "handle": "no-love-still-here-tee",
+      "id": "gid://shopify/Product/15447895310643",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "26.99"
+        }
+      },
+      "status": "ACTIVE",
+      "tags": [
+        "NoLoveAppeal"
+      ],
+      "title": "No Love. Still Here. Tee",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "26.99",
+              "sku": "NLA-NLSH-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "price": "26.99",
+              "sku": "NLA-NLSH-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "price": "26.99",
+              "sku": "NLA-NLSH-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "price": "26.99",
+              "sku": "NLA-NLSH-XL",
+              "title": "XL"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "createdAt": "2026-10-28T04:38:49Z",
+      "description": "Black hoodie. Front: small veiled figure in fine silver linework on the chest. Back: large veiled skull in flowing silver linework.Made to order. Pressed and shipped by the founder.",
+      "featuredMedia": {
+        "preview": {
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0997/7187/5635/files/veil-hoodie-back.jpg?v=1793162332"
+          }
+        }
+      },
+      "handle": "veil-hoodie",
+      "id": "gid://shopify/Product/15447895408947",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "49.99"
+        }
+      },
+      "status": "ACTIVE",
+      "tags": [
+        "NoLoveAppeal",
+        "Veil"
+      ],
+      "title": "Veil Hoodie",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "49.99",
+              "sku": "NLA-VEILH-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "price": "49.99",
+              "sku": "NLA-VEILH-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "price": "49.99",
+              "sku": "NLA-VEILH-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "price": "49.99",
+              "sku": "NLA-VEILH-XL",
+              "title": "XL"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "createdAt": "2026-10-28T04:38:55Z",
+      "description": "Hoodie. Front: TRUSTLESS with a broken heart. Back: cracked stone heart wrapped in chains, 51/50, inside an ornate silver frame.Made to order. Pressed and shipped by the founder.",
+      "featuredMedia": {
+        "preview": {
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0997/7187/5635/files/trustless-hoodie-back.jpg?v=1793162338"
+          }
+        }
+      },
+      "handle": "trustless-51-50-hoodie",
+      "id": "gid://shopify/Product/15447895441715",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "49.99"
+        }
+      },
+      "status": "ACTIVE",
+      "tags": [
+        "NoLoveAppeal",
+        "Trustless 51/50"
+      ],
+      "title": "Trustless 51/50 Hoodie",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "49.99",
+              "sku": "NLA-T5150H-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "price": "49.99",
+              "sku": "NLA-T5150H-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "price": "49.99",
+              "sku": "NLA-T5150H-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "price": "49.99",
+              "sku": "NLA-T5150H-XL",
+              "title": "XL"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "createdAt": "2026-10-28T04:39:02Z",
+      "description": "Black hoodie. Back: HEARTLESS 575 in gothic lettering over a cracked skull wrapped in thorns and blood-red roses. Front plain.Made to order. Pressed and shipped by the founder. This is the skull-and-roses artwork, distinct from the Heartless 575 Hoodie with the purple 575 numbers artwork.",
+      "featuredMedia": {
+        "preview": {
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0997/7187/5635/files/heartless-skull-roses-hoodie-back.jpg?v=1793162345"
+          }
+        }
+      },
+      "handle": "heartless-575-skull-and-roses-hoodie",
+      "id": "gid://shopify/Product/15447895474483",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "49.99"
+        }
+      },
+      "status": "ACTIVE",
+      "tags": [
+        "Heartless 575",
+        "NoLoveAppeal"
+      ],
+      "title": "Heartless 575 Skull and Roses Hoodie",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "price": "49.99",
+              "sku": "NLA-H575SRH-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "price": "49.99",
+              "sku": "NLA-H575SRH-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "price": "49.99",
+              "sku": "NLA-H575SRH-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "price": "49.99",
+              "sku": "NLA-H575SRH-XL",
+              "title": "XL"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

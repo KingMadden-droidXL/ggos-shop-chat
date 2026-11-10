@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: ggos-shop-chat
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn ggos.app:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GGOS_CORS_ORIGINS
+        value: https://noloveappeal575.myshopify.com,https://kingmadden-droidxl.github.io
+      - key: GGOS_API_TOKEN
+        sync: false
+      - key: SHOPIFY_SHOP_DOMAIN
+        value: w1q4is-1q.myshopify.com
+      - key: SHOPIFY_ADMIN_TOKEN
+        sync: false

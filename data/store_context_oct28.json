@@ -1,0 +1,1450 @@
+{
+  "context_source": "Oct 28 Shopify search_products dump saved in workspace (first page only)",
+  "context_date": "2026-10-28",
+  "productsCount_reported": {
+    "count": 23,
+    "precision": "EXACT"
+  },
+  "hasNextPage": true,
+  "products": [
+    {
+      "createdAt": "2026-10-05T07:15:02Z",
+      "description": "Heartless 575 is where NoLoveAppeal began \u2014 an ornate skull wrapped in blood-red roses and thorns, set in a baroque frame. A broken heart rests at ...",
+      "featuredMedia": {
+        "preview": {
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0997/7187/5635/files/heartless-575-ornate_040ff82a-37d8-4d87-a108-1cae8f6ae0af.jpg?v=1791309397"
+          }
+        }
+      },
+      "handle": "heartless-575",
+      "id": "gid://shopify/Product/15400019525939",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "26.99",
+          "currencyCode": "USD"
+        }
+      },
+      "productType": "T-Shirt",
+      "status": "ACTIVE",
+      "tags": [
+        "Drop 001",
+        "NoLoveAppeal",
+        "Wave 1"
+      ],
+      "title": "Heartless 575",
+      "totalInventory": 0,
+      "updatedAt": "2026-10-13T15:56:30Z",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67608883364147",
+              "inventoryQuantity": 0,
+              "price": "26.99",
+              "sku": "NLA-H575-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67608883396915",
+              "inventoryQuantity": 0,
+              "price": "26.99",
+              "sku": "NLA-H575-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67608883429683",
+              "inventoryQuantity": 0,
+              "price": "26.99",
+              "sku": "NLA-H575-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67608883462451",
+              "inventoryQuantity": 0,
+              "price": "26.99",
+              "sku": "NLA-H575-XL",
+              "title": "XL"
+            }
+          }
+        ]
+      },
+      "variantsCount": {
+        "count": 4
+      },
+      "vendor": "NoLoveAppeal"
+    },
+    {
+      "createdAt": "2026-10-05T07:15:15Z",
+      "description": "A heart in shattered chains. 51/50 \u2014 a split that never quite resolves, a score nobody settled. Trustless is the coldest piece in the drop: ornate,...",
+      "featuredMedia": {
+        "preview": {
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0997/7187/5635/files/trustless-5150-v1.jpg?v=1791309398"
+          }
+        }
+      },
+      "handle": "trustless-51-50",
+      "id": "gid://shopify/Product/15400020279603",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "26.99",
+          "currencyCode": "USD"
+        }
+      },
+      "productType": "T-Shirt",
+      "status": "ACTIVE",
+      "tags": [
+        "Drop 001",
+        "NoLoveAppeal",
+        "Wave 1"
+      ],
+      "title": "Trustless 51/50",
+      "totalInventory": 0,
+      "updatedAt": "2026-10-13T15:56:32Z",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67608884216115",
+              "inventoryQuantity": 0,
+              "price": "26.99",
+              "sku": "NLA-T5150-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67608884248883",
+              "inventoryQuantity": 0,
+              "price": "26.99",
+              "sku": "NLA-T5150-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67608884281651",
+              "inventoryQuantity": 0,
+              "price": "26.99",
+              "sku": "NLA-T5150-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67608884314419",
+              "inventoryQuantity": 0,
+              "price": "26.99",
+              "sku": "NLA-T5150-XL",
+              "title": "XL"
+            }
+          }
+        ]
+      },
+      "variantsCount": {
+        "count": 4
+      },
+      "vendor": "NoLoveAppeal"
+    },
+    {
+      "createdAt": "2026-10-05T07:15:43Z",
+      "description": "Veil is the quietest piece in the drop \u2014 and the sharpest. A mourning veil rendered in fine silver linework, ornate and untouchable. No noise, no e...",
+      "featuredMedia": {
+        "preview": {
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0997/7187/5635/files/media-generation-veil-concept-1-veiled-skull-0-48b906bb-6edf-4296-b96c-3f8a2cebe093.webp?v=1791500806"
+          }
+        }
+      },
+      "handle": "veil",
+      "id": "gid://shopify/Product/15400022016307",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "26.99",
+          "currencyCode": "USD"
+        }
+      },
+      "productType": "T-Shirt",
+      "status": "ACTIVE",
+      "tags": [
+        "Drop 001",
+        "NoLoveAppeal",
+        "Wave 1"
+      ],
+      "title": "Veil",
+      "totalInventory": 0,
+      "updatedAt": "2026-10-27T21:24:37Z",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67608886083891",
+              "inventoryQuantity": 0,
+              "price": "26.99",
+              "sku": "NLA-VEIL-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67608886116659",
+              "inventoryQuantity": 0,
+              "price": "26.99",
+              "sku": "NLA-VEIL-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67608886149427",
+              "inventoryQuantity": 0,
+              "price": "26.99",
+              "sku": "NLA-VEIL-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67608886182195",
+              "inventoryQuantity": 0,
+              "price": "26.99",
+              "sku": "NLA-VEIL-XL",
+              "title": "XL"
+            }
+          }
+        ]
+      },
+      "variantsCount": {
+        "count": 4
+      },
+      "vendor": "NoLoveAppeal"
+    },
+    {
+      "createdAt": "2026-10-08T22:46:23Z",
+      "description": "",
+      "featuredMedia": {
+        "preview": {
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0997/7187/5635/files/teddy-tee-purple_5344ad0c-8234-410e-b099-1783f7f46a6e.png?v=1791499756"
+          }
+        }
+      },
+      "handle": "teddy-tee-deep-purple",
+      "id": "gid://shopify/Product/15408024551731",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "31.75",
+          "currencyCode": "USD"
+        }
+      },
+      "productType": "",
+      "status": "ACTIVE",
+      "tags": [],
+      "title": "Teddy Tee \u2014 Deep Purple",
+      "totalInventory": 0,
+      "updatedAt": "2026-10-13T15:56:31Z",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67637440676147",
+              "inventoryQuantity": 0,
+              "price": "31.75",
+              "sku": null,
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67637440708915",
+              "inventoryQuantity": 0,
+              "price": "31.75",
+              "sku": null,
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67637440741683",
+              "inventoryQuantity": 0,
+              "price": "31.75",
+              "sku": null,
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67637440774451",
+              "inventoryQuantity": 0,
+              "price": "31.75",
+              "sku": null,
+              "title": "XL"
+            }
+          }
+        ]
+      },
+      "variantsCount": {
+        "count": 4
+      },
+      "vendor": "NoLoveAppeal"
+    },
+    {
+      "createdAt": "2026-10-08T22:46:29Z",
+      "description": "",
+      "featuredMedia": {
+        "preview": {
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0997/7187/5635/files/teddy-shorts-purple_82e5bf18-8887-4bf9-b6f2-fff8ae5f9841.png?v=1791499760"
+          }
+        }
+      },
+      "handle": "teddy-shorts-deep-purple",
+      "id": "gid://shopify/Product/15408024584499",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "34.99",
+          "currencyCode": "USD"
+        }
+      },
+      "productType": "",
+      "status": "ACTIVE",
+      "tags": [],
+      "title": "Teddy Shorts \u2014 Deep Purple",
+      "totalInventory": 0,
+      "updatedAt": "2026-10-13T15:56:31Z",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67637440807219",
+              "inventoryQuantity": 0,
+              "price": "34.99",
+              "sku": null,
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67637440839987",
+              "inventoryQuantity": 0,
+              "price": "34.99",
+              "sku": null,
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67637440872755",
+              "inventoryQuantity": 0,
+              "price": "34.99",
+              "sku": null,
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67637440905523",
+              "inventoryQuantity": 0,
+              "price": "34.99",
+              "sku": null,
+              "title": "XL"
+            }
+          }
+        ]
+      },
+      "variantsCount": {
+        "count": 4
+      },
+      "vendor": "NoLoveAppeal"
+    },
+    {
+      "createdAt": "2026-10-08T22:46:29Z",
+      "description": "",
+      "featuredMedia": {
+        "preview": {
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0997/7187/5635/files/teddy-hoodie-purple_c4f9dc64-5789-42f5-8d50-8fe9ea2026e0.png?v=1791499761"
+          }
+        }
+      },
+      "handle": "teddy-hoodie-deep-purple",
+      "id": "gid://shopify/Product/15408024617267",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "39.99",
+          "currencyCode": "USD"
+        }
+      },
+      "productType": "",
+      "status": "ACTIVE",
+      "tags": [],
+      "title": "Teddy Hoodie \u2014 Deep Purple",
+      "totalInventory": 0,
+      "updatedAt": "2026-10-13T15:56:30Z",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67637440938291",
+              "inventoryQuantity": 0,
+              "price": "39.99",
+              "sku": null,
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67637440971059",
+              "inventoryQuantity": 0,
+              "price": "39.99",
+              "sku": null,
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67637441003827",
+              "inventoryQuantity": 0,
+              "price": "39.99",
+              "sku": null,
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67637441036595",
+              "inventoryQuantity": 0,
+              "price": "39.99",
+              "sku": null,
+              "title": "XL"
+            }
+          }
+        ]
+      },
+      "variantsCount": {
+        "count": 4
+      },
+      "vendor": "NoLoveAppeal"
+    },
+    {
+      "createdAt": "2026-10-08T22:46:29Z",
+      "description": "",
+      "featuredMedia": {
+        "preview": {
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0997/7187/5635/files/teddy-joggers-purple_4e5bb8e6-4e30-48f0-8eb7-ebec9e625b29.png?v=1791499761"
+          }
+        }
+      },
+      "handle": "teddy-joggers-deep-purple",
+      "id": "gid://shopify/Product/15408024650035",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "44.99",
+          "currencyCode": "USD"
+        }
+      },
+      "productType": "",
+      "status": "ACTIVE",
+      "tags": [],
+      "title": "Teddy Joggers \u2014 Deep Purple",
+      "totalInventory": 0,
+      "updatedAt": "2026-10-13T15:56:30Z",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67637441069363",
+              "inventoryQuantity": 0,
+              "price": "44.99",
+              "sku": null,
+              "title": "XL"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67637441102131",
+              "inventoryQuantity": 0,
+              "price": "44.99",
+              "sku": null,
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67637441134899",
+              "inventoryQuantity": 0,
+              "price": "44.99",
+              "sku": null,
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67637441167667",
+              "inventoryQuantity": 0,
+              "price": "44.99",
+              "sku": null,
+              "title": "L"
+            }
+          }
+        ]
+      },
+      "variantsCount": {
+        "count": 4
+      },
+      "vendor": "NoLoveAppeal"
+    },
+    {
+      "createdAt": "2026-10-27T21:53:41Z",
+      "description": "Available in two sizes with an elastic stretch band, this hat is a sure winner in comfort! It has an athletic shape with a curved visor. \u2022 63% poly...",
+      "featuredMedia": {
+        "preview": {
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0997/7187/5635/files/closed-back-structured-cap-multicam-black-front-6ae11d58d79a7.jpg?v=1793138024"
+          }
+        }
+      },
+      "handle": "structured-twill-cap",
+      "id": "gid://shopify/Product/15447554752819",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "19.75",
+          "currencyCode": "USD"
+        }
+      },
+      "productType": "",
+      "status": "ACTIVE",
+      "tags": [],
+      "title": "Structured Twill Cap",
+      "totalInventory": 19998,
+      "updatedAt": "2026-10-28T09:53:50Z",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67810369896755",
+              "inventoryQuantity": 9999,
+              "price": "19.75",
+              "sku": "2870419_15897",
+              "title": "S/M"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67810369929523",
+              "inventoryQuantity": 9999,
+              "price": "19.75",
+              "sku": "2870419_15898",
+              "title": "L/XL"
+            }
+          }
+        ]
+      },
+      "variantsCount": {
+        "count": 2
+      },
+      "vendor": "NoLoveAppeal575"
+    },
+    {
+      "createdAt": "2026-10-28T00:39:14Z",
+      "description": "Black hoodie with the Heartless 575 artwork large on the back. Front is plain.Made to order \u2014 pressed and shipped by the founder.",
+      "featuredMedia": {
+        "preview": {
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0997/7187/5635/files/heartless-575-hoodie-full-mockup.jpg?v=1793147957"
+          }
+        }
+      },
+      "handle": "heartless-575-hoodie",
+      "id": "gid://shopify/Product/15447622254899",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "49.99",
+          "currencyCode": "USD"
+        }
+      },
+      "productType": "Hoodie",
+      "status": "ACTIVE",
+      "tags": [
+        "Heartless 575",
+        "NoLoveAppeal"
+      ],
+      "title": "Heartless 575 Hoodie",
+      "totalInventory": 0,
+      "updatedAt": "2026-10-28T12:39:22Z",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67810612314419",
+              "inventoryQuantity": 0,
+              "price": "49.99",
+              "sku": "NLA-H575H-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67810612347187",
+              "inventoryQuantity": 0,
+              "price": "49.99",
+              "sku": "NLA-H575H-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67810612379955",
+              "inventoryQuantity": 0,
+              "price": "49.99",
+              "sku": "NLA-H575H-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67810612412723",
+              "inventoryQuantity": 0,
+              "price": "49.99",
+              "sku": "NLA-H575H-XL",
+              "title": "XL"
+            }
+          }
+        ]
+      },
+      "variantsCount": {
+        "count": 4
+      },
+      "vendor": "NoLoveAppeal"
+    },
+    {
+      "createdAt": "2026-10-28T04:18:43Z",
+      "description": "The next evolution of the Heartless 575 drop. Heavyweight black hoodie built for the streets \u2014 boxy oversized fit with the full ornate skull, blood...",
+      "featuredMedia": null,
+      "handle": "heartless-575-oversized-heavyweight-hoodie",
+      "id": "gid://shopify/Product/15447888036147",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "54.99",
+          "currencyCode": "USD"
+        }
+      },
+      "productType": "Hoodie",
+      "status": "DRAFT",
+      "tags": [
+        "Heartless 575",
+        "Heavyweight",
+        "Hoodie",
+        "NoLoveAppeal",
+        "Oversized",
+        "Wave 2"
+      ],
+      "title": "Heartless 575 Oversized Heavyweight Hoodie",
+      "totalInventory": 0,
+      "updatedAt": "2026-10-28T04:18:52Z",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814087557427",
+              "inventoryQuantity": 0,
+              "price": "54.99",
+              "sku": "NLA-H575OH-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814087590195",
+              "inventoryQuantity": 0,
+              "price": "54.99",
+              "sku": "NLA-H575OH-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814087622963",
+              "inventoryQuantity": 0,
+              "price": "54.99",
+              "sku": "NLA-H575OH-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814087655731",
+              "inventoryQuantity": 0,
+              "price": "54.99",
+              "sku": "NLA-H575OH-XL",
+              "title": "XL"
+            }
+          }
+        ]
+      },
+      "variantsCount": {
+        "count": 4
+      },
+      "vendor": "NoLoveAppeal"
+    },
+    {
+      "createdAt": "2026-10-28T04:18:46Z",
+      "description": "Trustless turned into armor. Charcoal zip-up hoodie with the shattered heart locked in ornate chains across the back. Front carries a minimal \"TRUS...",
+      "featuredMedia": null,
+      "handle": "trustless-chains-zip-up-hoodie",
+      "id": "gid://shopify/Product/15447888167219",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "59.99",
+          "currencyCode": "USD"
+        }
+      },
+      "productType": "Hoodie",
+      "status": "DRAFT",
+      "tags": [
+        "51/50",
+        "Hoodie",
+        "NoLoveAppeal",
+        "Trustless",
+        "Wave 2",
+        "Zip-Up"
+      ],
+      "title": "Trustless Chains Zip-Up Hoodie",
+      "totalInventory": 0,
+      "updatedAt": "2026-10-28T04:18:53Z",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814087917875",
+              "inventoryQuantity": 0,
+              "price": "59.99",
+              "sku": "NLA-TCHAIN-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814087950643",
+              "inventoryQuantity": 0,
+              "price": "59.99",
+              "sku": "NLA-TCHAIN-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814087983411",
+              "inventoryQuantity": 0,
+              "price": "59.99",
+              "sku": "NLA-TCHAIN-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814088016179",
+              "inventoryQuantity": 0,
+              "price": "59.99",
+              "sku": "NLA-TCHAIN-XL",
+              "title": "XL"
+            }
+          }
+        ]
+      },
+      "variantsCount": {
+        "count": 4
+      },
+      "vendor": "NoLoveAppeal"
+    },
+    {
+      "createdAt": "2026-10-28T04:18:49Z",
+      "description": "The quietest piece, now heavier. Black hoodie with the mourning veil rendered in fine silver linework \u2014 large on the back, small and sharp on the l...",
+      "featuredMedia": null,
+      "handle": "veil-mourning-hoodie",
+      "id": "gid://shopify/Product/15447888265523",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "54.99",
+          "currencyCode": "USD"
+        }
+      },
+      "productType": "Hoodie",
+      "status": "DRAFT",
+      "tags": [
+        "Hoodie",
+        "NoLoveAppeal",
+        "Silver Linework",
+        "Veil",
+        "Wave 2"
+      ],
+      "title": "Veil Mourning Hoodie",
+      "totalInventory": 0,
+      "updatedAt": "2026-10-28T04:18:56Z",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814088114483",
+              "inventoryQuantity": 0,
+              "price": "54.99",
+              "sku": "NLA-VEILH-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814088147251",
+              "inventoryQuantity": 0,
+              "price": "54.99",
+              "sku": "NLA-VEILH-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814088180019",
+              "inventoryQuantity": 0,
+              "price": "54.99",
+              "sku": "NLA-VEILH-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814088212787",
+              "inventoryQuantity": 0,
+              "price": "54.99",
+              "sku": "NLA-VEILH-XL",
+              "title": "XL"
+            }
+          }
+        ]
+      },
+      "variantsCount": {
+        "count": 4
+      },
+      "vendor": "NoLoveAppeal"
+    },
+    {
+      "createdAt": "2026-10-28T04:18:53Z",
+      "description": "Bold statement piece for Wave 2. Black (or washed black) tee with \"NO LOVE. STILL HERE.\" in strong, slightly distressed typography. Small ornate sk...",
+      "featuredMedia": null,
+      "handle": "no-love-still-here-manifesto-tee",
+      "id": "gid://shopify/Product/15447888396595",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "29.99",
+          "currencyCode": "USD"
+        }
+      },
+      "productType": "T-Shirt",
+      "status": "DRAFT",
+      "tags": [
+        "Graphic Tee",
+        "Manifesto",
+        "NoLoveAppeal",
+        "Slogan",
+        "Wave 2"
+      ],
+      "title": "No Love / Still Here Manifesto Tee",
+      "totalInventory": 0,
+      "updatedAt": "2026-10-28T04:19:06Z",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814088343859",
+              "inventoryQuantity": 0,
+              "price": "29.99",
+              "sku": "NLA-NLS H-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814088376627",
+              "inventoryQuantity": 0,
+              "price": "29.99",
+              "sku": "NLA-NLS H-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814088409395",
+              "inventoryQuantity": 0,
+              "price": "29.99",
+              "sku": "NLA-NLS H-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814088442163",
+              "inventoryQuantity": 0,
+              "price": "29.99",
+              "sku": "NLA-NLS H-XL",
+              "title": "XL"
+            }
+          }
+        ]
+      },
+      "variantsCount": {
+        "count": 4
+      },
+      "vendor": "NoLoveAppeal"
+    },
+    {
+      "createdAt": "2026-10-28T04:21:50Z",
+      "description": "Wave 2 manifesto. Black tee with bold \"HEARTLESS BY CHOICE\" typography. Small ornate skull or rose accent keeps it locked to the NoLoveAppeal langu...",
+      "featuredMedia": null,
+      "handle": "heartless-by-choice-tee",
+      "id": "gid://shopify/Product/15447891575091",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "29.99",
+          "currencyCode": "USD"
+        }
+      },
+      "productType": "T-Shirt",
+      "status": "DRAFT",
+      "tags": [
+        "Graphic Tee",
+        "Heartless",
+        "Manifesto",
+        "NoLoveAppeal",
+        "Slogan",
+        "Wave 2"
+      ],
+      "title": "Heartless By Choice Tee",
+      "totalInventory": 0,
+      "updatedAt": "2026-10-28T04:21:53Z",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814092407091",
+              "inventoryQuantity": 0,
+              "price": "29.99",
+              "sku": "NLA-HBC-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814092439859",
+              "inventoryQuantity": 0,
+              "price": "29.99",
+              "sku": "NLA-HBC-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814092472627",
+              "inventoryQuantity": 0,
+              "price": "29.99",
+              "sku": "NLA-HBC-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814092505395",
+              "inventoryQuantity": 0,
+              "price": "29.99",
+              "sku": "NLA-HBC-XL",
+              "title": "XL"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814092538163",
+              "inventoryQuantity": 0,
+              "price": "31.99",
+              "sku": "NLA-HBC-2XL",
+              "title": "2XL"
+            }
+          }
+        ]
+      },
+      "variantsCount": {
+        "count": 5
+      },
+      "vendor": "NoLoveAppeal"
+    },
+    {
+      "createdAt": "2026-10-28T04:21:53Z",
+      "description": "Wave 2 manifesto. Black tee with strong \"TRUST NOTHING. MOVE ANYWAY.\" text. Minimal ornate accent. Street-level statement that matches the Trustles...",
+      "featuredMedia": null,
+      "handle": "trust-nothing-move-anyway-tee",
+      "id": "gid://shopify/Product/15447891640627",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "29.99",
+          "currencyCode": "USD"
+        }
+      },
+      "productType": "T-Shirt",
+      "status": "DRAFT",
+      "tags": [
+        "Graphic Tee",
+        "Manifesto",
+        "NoLoveAppeal",
+        "Slogan",
+        "Trustless",
+        "Wave 2"
+      ],
+      "title": "Trust Nothing. Move Anyway. Tee",
+      "totalInventory": 0,
+      "updatedAt": "2026-10-28T04:22:02Z",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814092603699",
+              "inventoryQuantity": 0,
+              "price": "29.99",
+              "sku": "NLA-TNMA-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814092636467",
+              "inventoryQuantity": 0,
+              "price": "29.99",
+              "sku": "NLA-TNMA-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814092669235",
+              "inventoryQuantity": 0,
+              "price": "29.99",
+              "sku": "NLA-TNMA-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814092702003",
+              "inventoryQuantity": 0,
+              "price": "29.99",
+              "sku": "NLA-TNMA-XL",
+              "title": "XL"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814092734771",
+              "inventoryQuantity": 0,
+              "price": "31.99",
+              "sku": "NLA-TNMA-2XL",
+              "title": "2XL"
+            }
+          }
+        ]
+      },
+      "variantsCount": {
+        "count": 5
+      },
+      "vendor": "NoLoveAppeal"
+    },
+    {
+      "createdAt": "2026-10-28T04:22:52Z",
+      "description": "The next evolution of the Heartless 575 drop. Heavyweight black hoodie built for the streets \u2014 boxy oversized fit with the full ornate skull, blood...",
+      "featuredMedia": null,
+      "handle": "heartless-575-oversized-heavyweight-hoodie-1",
+      "id": "gid://shopify/Product/15447892033843",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "54.99",
+          "currencyCode": "USD"
+        }
+      },
+      "productType": "Hoodie",
+      "status": "DRAFT",
+      "tags": [
+        "Heartless 575",
+        "Heavyweight",
+        "Hoodie",
+        "NoLoveAppeal",
+        "Oversized",
+        "Wave 2"
+      ],
+      "title": "Heartless 575 Oversized Heavyweight Hoodie",
+      "totalInventory": 0,
+      "updatedAt": "2026-10-28T04:23:06Z",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814093619507",
+              "inventoryQuantity": 0,
+              "price": "54.99",
+              "sku": "NLA-H575OH-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814093652275",
+              "inventoryQuantity": 0,
+              "price": "54.99",
+              "sku": "NLA-H575OH-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814093685043",
+              "inventoryQuantity": 0,
+              "price": "54.99",
+              "sku": "NLA-H575OH-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814093717811",
+              "inventoryQuantity": 0,
+              "price": "54.99",
+              "sku": "NLA-H575OH-XL",
+              "title": "XL"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814093750579",
+              "inventoryQuantity": 0,
+              "price": "57.99",
+              "sku": "NLA-H575OH-2XL",
+              "title": "2XL"
+            }
+          }
+        ]
+      },
+      "variantsCount": {
+        "count": 5
+      },
+      "vendor": "NoLoveAppeal"
+    },
+    {
+      "createdAt": "2026-10-28T04:22:55Z",
+      "description": "Trustless turned into armor. Charcoal zip-up hoodie with the shattered heart locked in ornate chains across the back. Front carries a minimal \"TRUS...",
+      "featuredMedia": null,
+      "handle": "trustless-chains-zip-up-hoodie-1",
+      "id": "gid://shopify/Product/15447892066611",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "59.99",
+          "currencyCode": "USD"
+        }
+      },
+      "productType": "Hoodie",
+      "status": "DRAFT",
+      "tags": [
+        "51/50",
+        "Hoodie",
+        "NoLoveAppeal",
+        "Trustless",
+        "Wave 2",
+        "Zip-Up"
+      ],
+      "title": "Trustless Chains Zip-Up Hoodie",
+      "totalInventory": 0,
+      "updatedAt": "2026-10-28T04:23:02Z",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814093783347",
+              "inventoryQuantity": 0,
+              "price": "59.99",
+              "sku": "NLA-TCHAIN-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814093816115",
+              "inventoryQuantity": 0,
+              "price": "59.99",
+              "sku": "NLA-TCHAIN-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814093848883",
+              "inventoryQuantity": 0,
+              "price": "59.99",
+              "sku": "NLA-TCHAIN-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814093881651",
+              "inventoryQuantity": 0,
+              "price": "59.99",
+              "sku": "NLA-TCHAIN-XL",
+              "title": "XL"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814093914419",
+              "inventoryQuantity": 0,
+              "price": "62.99",
+              "sku": "NLA-TCHAIN-2XL",
+              "title": "2XL"
+            }
+          }
+        ]
+      },
+      "variantsCount": {
+        "count": 5
+      },
+      "vendor": "NoLoveAppeal"
+    },
+    {
+      "createdAt": "2026-10-28T04:22:59Z",
+      "description": "The quietest piece, now heavier. Black hoodie with the mourning veil rendered in fine silver linework \u2014 large on the back, small and sharp on the l...",
+      "featuredMedia": null,
+      "handle": "veil-mourning-hoodie-1",
+      "id": "gid://shopify/Product/15447892099379",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "54.99",
+          "currencyCode": "USD"
+        }
+      },
+      "productType": "Hoodie",
+      "status": "DRAFT",
+      "tags": [
+        "Hoodie",
+        "NoLoveAppeal",
+        "Silver Linework",
+        "Veil",
+        "Wave 2"
+      ],
+      "title": "Veil Mourning Hoodie",
+      "totalInventory": 0,
+      "updatedAt": "2026-10-28T04:23:04Z",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814093947187",
+              "inventoryQuantity": 0,
+              "price": "54.99",
+              "sku": "NLA-VEILH-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814093979955",
+              "inventoryQuantity": 0,
+              "price": "54.99",
+              "sku": "NLA-VEILH-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814094012723",
+              "inventoryQuantity": 0,
+              "price": "54.99",
+              "sku": "NLA-VEILH-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814094045491",
+              "inventoryQuantity": 0,
+              "price": "54.99",
+              "sku": "NLA-VEILH-XL",
+              "title": "XL"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814094078259",
+              "inventoryQuantity": 0,
+              "price": "57.99",
+              "sku": "NLA-VEILH-2XL",
+              "title": "2XL"
+            }
+          }
+        ]
+      },
+      "variantsCount": {
+        "count": 5
+      },
+      "vendor": "NoLoveAppeal"
+    },
+    {
+      "createdAt": "2026-10-28T04:23:02Z",
+      "description": "Bold statement piece for Wave 2. Black (or washed black) tee with \"NO LOVE. STILL HERE.\" in strong, slightly distressed typography. Small ornate sk...",
+      "featuredMedia": null,
+      "handle": "no-love-still-here-manifesto-tee-1",
+      "id": "gid://shopify/Product/15447892164915",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "29.99",
+          "currencyCode": "USD"
+        }
+      },
+      "productType": "T-Shirt",
+      "status": "DRAFT",
+      "tags": [
+        "Graphic Tee",
+        "Manifesto",
+        "NoLoveAppeal",
+        "Slogan",
+        "Wave 2"
+      ],
+      "title": "No Love / Still Here Manifesto Tee",
+      "totalInventory": 0,
+      "updatedAt": "2026-10-28T04:23:16Z",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814094307635",
+              "inventoryQuantity": 0,
+              "price": "29.99",
+              "sku": "NLA-NLSH-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814094340403",
+              "inventoryQuantity": 0,
+              "price": "29.99",
+              "sku": "NLA-NLSH-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814094373171",
+              "inventoryQuantity": 0,
+              "price": "29.99",
+              "sku": "NLA-NLSH-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814094405939",
+              "inventoryQuantity": 0,
+              "price": "29.99",
+              "sku": "NLA-NLSH-XL",
+              "title": "XL"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814094438707",
+              "inventoryQuantity": 0,
+              "price": "31.99",
+              "sku": "NLA-NLSH-2XL",
+              "title": "2XL"
+            }
+          }
+        ]
+      },
+      "variantsCount": {
+        "count": 5
+      },
+      "vendor": "NoLoveAppeal"
+    },
+    {
+      "createdAt": "2026-10-28T04:38:38Z",
+      "description": "Black tee. \u201cNO LOVE. STILL HERE.\u201d in distressed bone lettering, with ornate filigree and a blood-red rose.Made to order. Pressed and shipped by the...",
+      "featuredMedia": {
+        "preview": {
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0997/7187/5635/files/no-love-still-here-tee.jpg?v=1793162321"
+          }
+        }
+      },
+      "handle": "no-love-still-here-tee",
+      "id": "gid://shopify/Product/15447895310643",
+      "priceRangeV2": {
+        "minVariantPrice": {
+          "amount": "26.99",
+          "currencyCode": "USD"
+        }
+      },
+      "productType": "T-Shirt",
+      "status": "ACTIVE",
+      "tags": [
+        "NoLoveAppeal"
+      ],
+      "title": "No Love. Still Here. Tee",
+      "totalInventory": 0,
+      "updatedAt": "2026-10-28T16:38:46Z",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814105547059",
+              "inventoryQuantity": 0,
+              "price": "26.99",
+              "sku": "NLA-NLSH-S",
+              "title": "S"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814105579827",
+              "inventoryQuantity": 0,
+              "price": "26.99",
+              "sku": "NLA-NLSH-M",
+              "title": "M"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814105612595",
+              "inventoryQuantity": 0,
+              "price": "26.99",
+              "sku": "NLA-NLSH-L",
+              "title": "L"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/67814105645363",
+              "inventoryQuantity": 0,
+              "price": "26.99",
+              "sku": "NLA-NLSH-XL",
+              "title": "XL"
+            }
+          }
+        ]
+      },
+      "variantsCount": {
+        "count": 4
+      },
+      "vendor": "NoLoveAppeal"
+    }
+  ]
+}

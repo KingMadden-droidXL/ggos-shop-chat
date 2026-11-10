@@ -1,0 +1,682 @@
+{
+  "generated_at": "2026-11-10T02:57:22.268366+00:00",
+  "shop": "noloveappeal575.myshopify.com",
+  "product_count": 47,
+  "products": [
+    {
+      "id": "gid://shopify/Product/15465701048627",
+      "title": "AI Cashflow Systems 2026",
+      "handle": "ai-cashflow-systems-2026",
+      "price": "27.00",
+      "sizes": [],
+      "url": "https://noloveappeal575.myshopify.com/products/ai-cashflow-systems-2026",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15460919148851",
+      "title": "AI Master Key Blueprint",
+      "handle": "ai-master-key-blueprint",
+      "price": "37.00",
+      "sizes": [],
+      "url": "https://noloveappeal575.myshopify.com/products/ai-master-key-blueprint",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15460761403699",
+      "title": "Bipolar Bear Hoodie",
+      "handle": "polar-bear-hoodie",
+      "price": "39.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/polar-bear-hoodie",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15460761370931",
+      "title": "Bipolar Bear Joggers",
+      "handle": "polar-bear-joggers",
+      "price": "44.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/polar-bear-joggers",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15460761305395",
+      "title": "Bipolar Bear Shorts",
+      "handle": "polar-bear-shorts",
+      "price": "34.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/polar-bear-shorts",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15460761338163",
+      "title": "Bipolar Bear Tee",
+      "handle": "polar-bear-tee",
+      "price": "31.75",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/polar-bear-tee",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15473797398835",
+      "title": "Folk Art Moth Sticker, Hand-Drawn Floral Gothic Design",
+      "handle": "folk-art-moth-sticker-hand-drawn-floral-gothic-design",
+      "price": "1.71",
+      "sizes": [
+        "2\" \u00d7 2\" / White",
+        "3\" \u00d7 3\" / White",
+        "4\" \u00d7 4\" / White",
+        "6\" \u00d7 6\" / White"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/folk-art-moth-sticker-hand-drawn-floral-gothic-design",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15400019525939",
+      "title": "Heartless 575",
+      "handle": "heartless-575",
+      "price": "26.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/heartless-575",
+      "contested": true
+    },
+    {
+      "id": "gid://shopify/Product/15447622254899",
+      "title": "Heartless 575 Hoodie",
+      "handle": "heartless-575-hoodie",
+      "price": "49.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/heartless-575-hoodie",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15447895474483",
+      "title": "Heartless 575 Skull and Roses Hoodie",
+      "handle": "heartless-575-skull-and-roses-hoodie",
+      "price": "49.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/heartless-575-skull-and-roses-hoodie",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15469458063667",
+      "title": "Murking My Demons All Day Basketball Shorts",
+      "handle": "murking-my-demons-all-day-basketball-shorts",
+      "price": "34.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/murking-my-demons-all-day-basketball-shorts",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15469457932595",
+      "title": "Murking My Demons All Day Hoodie",
+      "handle": "murking-my-demons-all-day-hoodie",
+      "price": "49.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/murking-my-demons-all-day-hoodie",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15469458161971",
+      "title": "Murking My Demons All Day Shoes",
+      "handle": "murking-my-demons-all-day-shoes",
+      "price": "89.99",
+      "sizes": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/murking-my-demons-all-day-shoes",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15469458030899",
+      "title": "Murking My Demons All Day Sweatpants",
+      "handle": "murking-my-demons-all-day-sweatpants",
+      "price": "44.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/murking-my-demons-all-day-sweatpants",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15466111959347",
+      "title": "No Love. Still Here.",
+      "handle": "no-love-still-here",
+      "price": "17.00",
+      "sizes": [],
+      "url": "https://noloveappeal575.myshopify.com/products/no-love-still-here",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15447895310643",
+      "title": "No Love. Still Here. Tee",
+      "handle": "no-love-still-here-tee",
+      "price": "26.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/no-love-still-here-tee",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15466993942835",
+      "title": "Skulls and Straps Black Paisley Pistol - NoLoveAppeal",
+      "handle": "skulls-and-straps-black-paisley-pistol-noloveappeal",
+      "price": "26.99",
+      "sizes": [
+        "Tee / S",
+        "Tee / M",
+        "Tee / L",
+        "Tee / XL",
+        "Hoodie / S",
+        "Hoodie / M",
+        "Hoodie / L",
+        "Hoodie / XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/skulls-and-straps-black-paisley-pistol-noloveappeal",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15473487806771",
+      "title": "Skulls and Straps Black Paisley Pistol Joggers",
+      "handle": "skulls-and-straps-black-paisley-pistol-joggers",
+      "price": "44.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/skulls-and-straps-black-paisley-pistol-joggers",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15473487315251",
+      "title": "Skulls and Straps Black Paisley Pistol Shorts",
+      "handle": "skulls-and-straps-black-paisley-pistol-shorts",
+      "price": "34.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/skulls-and-straps-black-paisley-pistol-shorts",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15473488462131",
+      "title": "Skulls and Straps Cream Skull - NoLoveAppeal",
+      "handle": "skulls-and-straps-cream-skull-noloveappeal",
+      "price": "26.99",
+      "sizes": [
+        "Tee / S",
+        "Tee / M",
+        "Tee / L",
+        "Tee / XL",
+        "Hoodie / S",
+        "Hoodie / M",
+        "Hoodie / L",
+        "Hoodie / XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/skulls-and-straps-cream-skull-noloveappeal",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15473488527667",
+      "title": "Skulls and Straps Cream Skull Joggers",
+      "handle": "skulls-and-straps-cream-skull-joggers",
+      "price": "44.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/skulls-and-straps-cream-skull-joggers",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15473488494899",
+      "title": "Skulls and Straps Cream Skull Shorts",
+      "handle": "skulls-and-straps-cream-skull-shorts",
+      "price": "34.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/skulls-and-straps-cream-skull-shorts",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15466993910067",
+      "title": "Skulls and Straps Gold Skull - NoLoveAppeal",
+      "handle": "skulls-and-straps-gold-skull-noloveappeal",
+      "price": "26.99",
+      "sizes": [
+        "Tee / S",
+        "Tee / M",
+        "Tee / L",
+        "Tee / XL",
+        "Hoodie / S",
+        "Hoodie / M",
+        "Hoodie / L",
+        "Hoodie / XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/skulls-and-straps-gold-skull-noloveappeal",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15473488134451",
+      "title": "Skulls and Straps Gold Skull Joggers",
+      "handle": "skulls-and-straps-gold-skull-joggers",
+      "price": "44.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/skulls-and-straps-gold-skull-joggers",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15473488101683",
+      "title": "Skulls and Straps Gold Skull Shorts",
+      "handle": "skulls-and-straps-gold-skull-shorts",
+      "price": "34.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/skulls-and-straps-gold-skull-shorts",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15466993844531",
+      "title": "Skulls and Straps Hot Pink Skull - NoLoveAppeal",
+      "handle": "skulls-and-straps-hot-pink-skull-noloveappeal",
+      "price": "26.99",
+      "sizes": [
+        "Tee / S",
+        "Tee / M",
+        "Tee / L",
+        "Tee / XL",
+        "Hoodie / S",
+        "Hoodie / M",
+        "Hoodie / L",
+        "Hoodie / XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/skulls-and-straps-hot-pink-skull-noloveappeal",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15473488265523",
+      "title": "Skulls and Straps Hot Pink Skull Joggers",
+      "handle": "skulls-and-straps-hot-pink-skull-joggers",
+      "price": "44.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/skulls-and-straps-hot-pink-skull-joggers",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15473488199987",
+      "title": "Skulls and Straps Hot Pink Skull Shorts",
+      "handle": "skulls-and-straps-hot-pink-skull-shorts",
+      "price": "34.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/skulls-and-straps-hot-pink-skull-shorts",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15473488658739",
+      "title": "Skulls and Straps Mauve Heart - NoLoveAppeal",
+      "handle": "skulls-and-straps-mauve-heart-noloveappeal",
+      "price": "26.99",
+      "sizes": [
+        "Tee / S",
+        "Tee / M",
+        "Tee / L",
+        "Tee / XL",
+        "Hoodie / S",
+        "Hoodie / M",
+        "Hoodie / L",
+        "Hoodie / XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/skulls-and-straps-mauve-heart-noloveappeal",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15473488789811",
+      "title": "Skulls and Straps Mauve Heart Joggers",
+      "handle": "skulls-and-straps-mauve-heart-joggers",
+      "price": "44.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/skulls-and-straps-mauve-heart-joggers",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15473488757043",
+      "title": "Skulls and Straps Mauve Heart Shorts",
+      "handle": "skulls-and-straps-mauve-heart-shorts",
+      "price": "34.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/skulls-and-straps-mauve-heart-shorts",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15466993975603",
+      "title": "Skulls and Straps Navy Gold Skull - NoLoveAppeal",
+      "handle": "skulls-and-straps-navy-gold-skull-noloveappeal",
+      "price": "26.99",
+      "sizes": [
+        "Tee / S",
+        "Tee / M",
+        "Tee / L",
+        "Tee / XL",
+        "Hoodie / S",
+        "Hoodie / M",
+        "Hoodie / L",
+        "Hoodie / XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/skulls-and-straps-navy-gold-skull-noloveappeal",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15473488396595",
+      "title": "Skulls and Straps Navy Gold Skull Joggers",
+      "handle": "skulls-and-straps-navy-gold-skull-joggers",
+      "price": "44.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/skulls-and-straps-navy-gold-skull-joggers",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15473488363827",
+      "title": "Skulls and Straps Navy Gold Skull Shorts",
+      "handle": "skulls-and-straps-navy-gold-skull-shorts",
+      "price": "34.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/skulls-and-straps-navy-gold-skull-shorts",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15466993877299",
+      "title": "Skulls and Straps Purple Bandana - NoLoveAppeal",
+      "handle": "skulls-and-straps-purple-bandana-noloveappeal",
+      "price": "26.99",
+      "sizes": [
+        "Tee / S",
+        "Tee / M",
+        "Tee / L",
+        "Tee / XL",
+        "Hoodie / S",
+        "Hoodie / M",
+        "Hoodie / L",
+        "Hoodie / XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/skulls-and-straps-purple-bandana-noloveappeal",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15473488036147",
+      "title": "Skulls and Straps Purple Bandana Joggers",
+      "handle": "skulls-and-straps-purple-bandana-joggers",
+      "price": "44.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/skulls-and-straps-purple-bandana-joggers",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15473487937843",
+      "title": "Skulls and Straps Purple Bandana Shorts",
+      "handle": "skulls-and-straps-purple-bandana-shorts",
+      "price": "34.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/skulls-and-straps-purple-bandana-shorts",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15447554752819",
+      "title": "Structured Twill Cap",
+      "handle": "structured-twill-cap",
+      "price": "19.75",
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/structured-twill-cap",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15408024617267",
+      "title": "Teddy Hoodie \u2014 Deep Purple",
+      "handle": "teddy-hoodie-deep-purple",
+      "price": "39.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/teddy-hoodie-deep-purple",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15408024650035",
+      "title": "Teddy Joggers \u2014 Deep Purple",
+      "handle": "teddy-joggers-deep-purple",
+      "price": "44.99",
+      "sizes": [
+        "XL",
+        "S",
+        "M",
+        "L"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/teddy-joggers-deep-purple",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15408024584499",
+      "title": "Teddy Shorts \u2014 Deep Purple",
+      "handle": "teddy-shorts-deep-purple",
+      "price": "34.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/teddy-shorts-deep-purple",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15408024551731",
+      "title": "Teddy Tee \u2014 Deep Purple",
+      "handle": "teddy-tee-deep-purple",
+      "price": "31.75",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/teddy-tee-deep-purple",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15473481449779",
+      "title": "The vow",
+      "handle": "the-vow",
+      "price": "29.65",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/the-vow",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15400020279603",
+      "title": "Trustless 51/50",
+      "handle": "trustless-51-50",
+      "price": "26.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/trustless-51-50",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15447895441715",
+      "title": "Trustless 51/50 Hoodie",
+      "handle": "trustless-51-50-hoodie",
+      "price": "49.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/trustless-51-50-hoodie",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15400022016307",
+      "title": "Veil",
+      "handle": "veil",
+      "price": "26.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/veil",
+      "contested": false
+    },
+    {
+      "id": "gid://shopify/Product/15447895408947",
+      "title": "Veil Hoodie",
+      "handle": "veil-hoodie",
+      "price": "49.99",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "url": "https://noloveappeal575.myshopify.com/products/veil-hoodie",
+      "contested": false
+    }
+  ]
+}

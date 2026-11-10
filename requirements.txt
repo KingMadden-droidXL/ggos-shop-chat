@@ -1,0 +1,5 @@
+fastapi
+libsql-experimental
+python-multipart
+requests
+uvicorn

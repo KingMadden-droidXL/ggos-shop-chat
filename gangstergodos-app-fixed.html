@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>GangsterGodOS</title>
+<style>
+:root{--bg:#f4f1ee;--fg:#1a1416;--card:#fff;--line:#d8cfd0;--red:#9b1c31;--mut:#6b5f62;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d0a0b;--fg:#ece4e4;--card:#171213;--line:#33292b;--red:#c0283f;--mut:#9a8c8f}}
+:root[data-theme="dark"]{--bg:#0d0a0b;--fg:#ece4e4;--card:#171213;--line:#33292b;--red:#c0283f;--mut:#9a8c8f}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 system-ui,sans-serif;padding:16px;max-width:760px;margin-inline:auto}
+h1{font:700 22px Georgia,serif;letter-spacing:.04em;margin:0 0 2px}.sub{color:var(--mut);margin:0 0 14px}
+label{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--mut);margin:12px 0 4px}
+textarea{width:100%;background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:10px;font:inherit}
+button{background:var(--red);color:#fff;border:0;border-radius:8px;padding:11px 16px;font:600 15px system-ui;margin-top:10px;cursor:pointer}
+button.ghost{background:transparent;color:var(--fg);border:1px solid var(--line)}button:disabled{opacity:.5}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px;margin-top:12px}
+.card h3{margin:0 0 6px;font-size:14px;color:var(--red);display:flex;justify-content:space-between;gap:8px}
+.out{white-space:pre-wrap;word-break:break-word}.task{color:var(--mut);font-size:13px;margin-bottom:6px}
+.ok{display:flex;gap:6px;align-items:center;font-size:13px;margin-top:8px}
+#err{color:var(--red);margin-top:8px}
+</style></head><body>
+<h1>GangsterGodOS</h1>
+<p class="sub">One command. Agents run in order. Nothing touches your store until you approve it.</p>
+<label for="cmd">Command</label>
+<textarea id="cmd" rows="2">Prep Wave 2 for launch: clean up the drafts and fill the Teddy listings.</textarea>
+<label for="ctx">Store context (edit freely)</label>
+<textarea id="ctx" rows="6">Store: NoLoveAppeal575 (Shopify Basic, USD). Brand: NoLoveAppeal. Voice: cold, direct, ornate gothic.
+Live Oct 30 (verified live, 0 orders lifetime, 23 products): Heartless 575 tee, Trustless 51/50 tee, Veil tee, No Love. Still Here. tee (all $26.99, S-XL); Heartless 575 hoodie $49.99 (purple 575 numbers, back print); Veil Hoodie $49.99; Trustless 51/50 Hoodie $49.99; Heartless 575 Skull and Roses Hoodie $49.99 (back print, front plain); Structured Twill Cap $19.75; Teddy Tee/Shorts/Hoodie/Joggers in Deep Purple ($31.75/$34.99/$39.99/$44.99) — descriptions + SKUs drafted Oct 30, NOT yet pushed to the store.
+Codes verified ACTIVE Oct 30: STAYCOLD10 (10% off), DROP001 (10% off any 2 Drop 001 tees, ends Halloween Oct 31).
+Drafts (Wave 2, no images, each duplicated): Oversized Heavyweight Hoodie $54.99, Trustless Chains Zip-Up $59.99, Veil Mourning Hoodie $54.99, No Love / Still Here Manifesto Tee $29.99, plus Heartless By Choice Tee and Trust Nothing. Move Anyway. Tee at $29.99. Keeper pick pending per pair: A (clean handle, S-XL) vs B (extra 2XL). Manifesto copy-B SKU collides with the live Still Here tee — fix before any merge.
+Held: Heartless 575 tee first image does not match its description — do not promote with that image. New image Oct 30: 'MURDERED MY HEART' skull back-print tee — use undecided (new listing, Heartless replacement, or post).</textarea>
+<button id="run">Run swarm</button>
+<div id="err"></div><div id="api" style="color:var(--mut);font-size:13px;margin-top:6px"></div><div id="cards"></div>
+<div id="gate" hidden>
+<label for="pkg">Approved change package (paste this into chat to push to Shopify)</label>
+<textarea id="pkg" rows="8" readonly></textarea>
+<button class="ghost" id="copy">Copy</button>
+</div>
+<script>
+const VOICE="Voice: direct, clear, no fluff, short sentences. Cold and decisive. Never claim you executed anything. You only draft and propose. If a fact is not in the context, say it is unverified.";
+const AGENTS={
+ analyst:{name:"Analyst",sys:"You read store numbers and context and report what matters: what sells, what is stuck, what to fix first. Give a ranked list of findings and one recommended move."},
+ catalog:{name:"Catalog Agent",sys:"You manage the product catalog. Find duplicates, missing fields, wrong statuses and bad pricing. End with a section PROPOSED SHOPIFY CHANGES listing one change per line as: product | field | old | new."},
+ creative:{name:"Creative Director",sys:"You write product concepts, titles and descriptions in the NoLoveAppeal voice: ornate, cold, gothic, never cute. Deliver copy ready to paste."},
+ manufacturing:{name:"Manufacturing Lead",sys:"You write tech packs a print shop can use: garment, fabric weight, print placement, sizes, colorways, file specs, QC checklist. Mark any unknown spec as TO CONFIRM. You do not contact factories; the founder does."},
+ growth:{name:"Growth Marketer",sys:"You plan launches: collections, discount codes, email and social copy, sequence and timing. End with PROPOSED SHOPIFY CHANGES listing collections and discount codes, one per line. Discount start date and audience must be confirmed by the founder."}
+};
+const $=id=>document.getElementById(id);
+const cards=$("cards"),approved={};
+function mk(name,task){const d=document.createElement("div");d.className="card";
+ const h=document.createElement("h3");const s=document.createElement("span");s.textContent=name;h.append(s);
+ const t=document.createElement("div");t.className="task";t.textContent=task;
+ const o=document.createElement("div");o.className="out";o.textContent="Thinking…";
+ const l=document.createElement("label");l.className="ok";const c=document.createElement("input");c.type="checkbox";
+ l.append(c," Approve this output");d.append(h,t,o,l);cards.append(d);return{o,c,name,task};}
+function pack(){const parts=[];for(const k in approved){const a=approved[k];if(a.c.checked)parts.push("## "+a.name+" — "+a.task+"\n"+a.o.textContent);}
+ $("pkg").value=parts.join("\n\n");$("gate").hidden=false;}
+$("copy").onclick=async()=>{try{await navigator.clipboard.writeText($("pkg").value);}catch(e){$("pkg").select();}};
+// Sampling: window.claude.complete(prompt) is the documented artifacts API —
+// it takes one string and returns a string. claude.use("sample") is kept only
+// as a fallback for runtimes that expose it instead. Either way the caller
+// gets {text} back, and the page shows which API actually worked.
+async function getSampler(){
+  if(window.claude && typeof window.claude.complete==="function"){
+    $("api").textContent="Sampler: window.claude.complete";
+    return async (prompt)=>{ const t=await window.claude.complete(prompt);
+      return {text: typeof t==="string" ? t : (t && t.text ? t.text : String(t))}; };
+  }
+  if(window.claude && typeof window.claude.use==="function"){
+    const s2=await window.claude.use("sample");
+    if(s2){ $("api").textContent='Sampler: claude.use("sample") (fallback)'; return s2; }
+  }
+  return null;
+}
+// Plan parsing: plain text first — one step per line, "agent-key: task".
+// Falls back to the old loose-JSON extraction. Returns steps + raw text so a
+// failed parse can show what the Commander actually said.
+function parsePlan(raw){
+  const text=typeof raw==="string"?raw:(raw&&raw.text?raw.text:"");
+  const steps=[];
+  for(const line of text.split(/\n/)){
+    const m=line.match(/^\s*(?:\d+[.)]\s*)?(analyst|catalog|creative|manufacturing|growth)\s*[:\-\u2013]\s*(.+?)\s*$/i);
+    if(m && AGENTS[m[1].toLowerCase()] && m[2]) steps.push({agent:m[1].toLowerCase(),task:m[2]});
+  }
+  if(steps.length) return {steps,raw:text};
+  const jm=text.match(/\{[\s\S]*\}/);
+  if(jm){ try{ const plan=JSON.parse(jm[0]);
+    const s2=(plan.plan||[]).filter(x=>AGENTS[x.agent]).slice(0,5);
+    if(s2.length) return {steps:s2,raw:text}; }catch(e){} }
+  return {steps:[],raw:text};
+}
+$("run").onclick=async()=>{
+ $("err").textContent="";cards.textContent="";$("gate").hidden=true;for(const k in approved)delete approved[k];
+ const btn=$("run");btn.disabled=true;
+ try{
+  const sample=await getSampler();
+  if(!sample){$("err").textContent="Claude sampling is not available in this view.";return;}
+  const cmd=$("cmd").value.trim(),ctx=$("ctx").value.trim();
+  const keys=Object.keys(AGENTS).map(k=>k+": "+AGENTS[k].name).join("; ");
+  const planRaw=await sample("You are the Swarm Commander. "+VOICE+"\nAgents: "+keys+".\nCommand: "+cmd+"\nContext: "+ctx+"\nReturn the plan as plain text: one step per line, in execution order, max 5 lines. Each line exactly: agent-key: one-sentence task. Use only the keys listed. No JSON, no extra text.");
+  const parsed=parsePlan(planRaw);const steps=parsed.steps;
+  if(!steps.length)throw new Error("Commander returned no usable plan. Raw reply: "+(parsed.raw||"").slice(0,400)+" — paste that back in chat.");
+  let prior="";
+  for(let i=0;i<steps.length;i++){
+   const s=steps[i],a=AGENTS[s.agent],card=mk(a.name,s.task);
+   const prompt="Role: "+a.name+". "+a.sys+"\n"+VOICE+"\nStore context: "+ctx+"\nFounder command: "+cmd+"\nYour task: "+s.task+(prior?"\nEarlier agents produced:\n"+prior:"")+"\nKeep it under 350 words.";
+   const r=await sample(prompt);
+   card.o.textContent=r.text;card.c.onchange=pack;approved[i]=card;
+   prior+="["+a.name+"] "+r.text.slice(0,900)+"\n";
+  }
+ }catch(e){$("err").textContent="Run stopped: "+(e&&e.message?e.message:"error");}
+ finally{btn.disabled=false;}
+};
+</script></body></html>

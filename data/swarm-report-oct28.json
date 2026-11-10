@@ -1,0 +1,939 @@
+{
+  "approved": false,
+  "applied": false,
+  "context_source": "Oct 28 Shopify search_products dump saved in workspace (first page only)",
+  "context_note": "Snapshot only \u2014 re-check against the live store before any push.",
+  "agents_run": 36,
+  "agent_results": [
+    {
+      "agent": "Analyst",
+      "role": "Duplicate audit: group drafts by title and by base handle",
+      "team": "audit",
+      "findings": [
+        "4 duplicate title group(s) in context of 20 product(s)",
+        "DUPLICATE: Heartless 575 Oversized Heavyweight Hoodie x2 \u2014 heartless-575-oversized-heavyweight-hoodie, heartless-575-oversized-heavyweight-hoodie-1",
+        "DUPLICATE: Trustless Chains Zip-Up Hoodie x2 \u2014 trustless-chains-zip-up-hoodie, trustless-chains-zip-up-hoodie-1",
+        "DUPLICATE: Veil Mourning Hoodie x2 \u2014 veil-mourning-hoodie, veil-mourning-hoodie-1",
+        "DUPLICATE: No Love / Still Here Manifesto Tee x2 \u2014 no-love-still-here-manifesto-tee, no-love-still-here-manifesto-tee-1"
+      ],
+      "proposed_changes": [],
+      "blocked": [],
+      "needs_owner": [
+        "Owner picks the keeper for each duplicate pair; no delete is proposed as decided"
+      ],
+      "counts": {
+        "products": 20,
+        "duplicate_groups": 4
+      }
+    },
+    {
+      "agent": "CatalogAgent",
+      "role": "Merge proposal: keeper trade-off per duplicate pair, no delete decided",
+      "team": "audit",
+      "findings": [
+        "MERGE CANDIDATE: Heartless 575 Oversized Heavyweight Hoodie: clean-handle copy heartless-575-oversized-heavyweight-hoodie vs richest copy heartless-575-oversized-heavyweight-hoodie-1 (5 variants)",
+        "MERGE CANDIDATE: Trustless Chains Zip-Up Hoodie: clean-handle copy trustless-chains-zip-up-hoodie vs richest copy trustless-chains-zip-up-hoodie-1 (5 variants)",
+        "MERGE CANDIDATE: Veil Mourning Hoodie: clean-handle copy veil-mourning-hoodie vs richest copy veil-mourning-hoodie-1 (5 variants)",
+        "MERGE CANDIDATE: No Love / Still Here Manifesto Tee: clean-handle copy no-love-still-here-manifesto-tee vs richest copy no-love-still-here-manifesto-tee-1 (5 variants)"
+      ],
+      "proposed_changes": [
+        {
+          "action": "merge_duplicates_UNDECIDED",
+          "title": "Heartless 575 Oversized Heavyweight Hoodie",
+          "keep_clean_handle": "heartless-575-oversized-heavyweight-hoodie",
+          "keep_richest": "heartless-575-oversized-heavyweight-hoodie-1",
+          "note": "Owner must pick one; the other is deleted only after that pick."
+        },
+        {
+          "action": "merge_duplicates_UNDECIDED",
+          "title": "Trustless Chains Zip-Up Hoodie",
+          "keep_clean_handle": "trustless-chains-zip-up-hoodie",
+          "keep_richest": "trustless-chains-zip-up-hoodie-1",
+          "note": "Owner must pick one; the other is deleted only after that pick."
+        },
+        {
+          "action": "merge_duplicates_UNDECIDED",
+          "title": "Veil Mourning Hoodie",
+          "keep_clean_handle": "veil-mourning-hoodie",
+          "keep_richest": "veil-mourning-hoodie-1",
+          "note": "Owner must pick one; the other is deleted only after that pick."
+        },
+        {
+          "action": "merge_duplicates_UNDECIDED",
+          "title": "No Love / Still Here Manifesto Tee",
+          "keep_clean_handle": "no-love-still-here-manifesto-tee",
+          "keep_richest": "no-love-still-here-manifesto-tee-1",
+          "note": "Owner must pick one; the other is deleted only after that pick."
+        }
+      ],
+      "blocked": [],
+      "needs_owner": [
+        "Keeper pick for Heartless 575 Oversized Heavyweight Hoodie",
+        "Keeper pick for Trustless Chains Zip-Up Hoodie",
+        "Keeper pick for Veil Mourning Hoodie",
+        "Keeper pick for No Love / Still Here Manifesto Tee"
+      ],
+      "counts": {
+        "merge_candidates": 4
+      }
+    },
+    {
+      "agent": "CreativeDirector",
+      "role": "Creative direction: copy + shot needs for image-less products, specs as placeholders",
+      "team": "creative",
+      "findings": [
+        "CREATIVE NEEDED: Heartless 575 Oversized Heavyweight Hoodie \u2014 front flat, back flat, detail, worn",
+        "CREATIVE NEEDED: Trustless Chains Zip-Up Hoodie \u2014 front flat, back flat, detail, worn",
+        "CREATIVE NEEDED: Veil Mourning Hoodie \u2014 front flat, back flat, detail, worn",
+        "CREATIVE NEEDED: No Love / Still Here Manifesto Tee \u2014 front flat, back flat, detail, worn",
+        "CREATIVE NEEDED: Heartless By Choice Tee \u2014 front flat, back flat, detail, worn",
+        "CREATIVE NEEDED: Trust Nothing. Move Anyway. Tee \u2014 front flat, back flat, detail, worn",
+        "CREATIVE NEEDED: Heartless 575 Oversized Heavyweight Hoodie \u2014 front flat, back flat, detail, worn",
+        "CREATIVE NEEDED: Trustless Chains Zip-Up Hoodie \u2014 front flat, back flat, detail, worn",
+        "CREATIVE NEEDED: Veil Mourning Hoodie \u2014 front flat, back flat, detail, worn",
+        "CREATIVE NEEDED: No Love / Still Here Manifesto Tee \u2014 front flat, back flat, detail, worn"
+      ],
+      "proposed_changes": [],
+      "blocked": [],
+      "needs_owner": [
+        "Artwork files for every image-less product",
+        "Owner approves or edits all copy before it goes live"
+      ],
+      "counts": {
+        "creative_needed": 10
+      }
+    },
+    {
+      "agent": "ManufacturingLead",
+      "role": "Manufacturing checklist: blank, fabric, print, sizes, lead time, cost \u2014 all TO CONFIRM",
+      "team": "manufacturing",
+      "findings": [
+        "SPEC CHECKLIST: Heartless 575 Oversized Heavyweight Hoodie \u2014 blank brand/style; fabric composition + GSM/oz; colourways; print method + placement; size range + size chart; lead time; MOQ; unit cost; inbound shipping; labels + care + country of origin \u2014 TO CONFIRM",
+        "SPEC CHECKLIST: Trustless Chains Zip-Up Hoodie \u2014 blank brand/style; fabric composition + GSM/oz; colourways; print method + placement; size range + size chart; lead time; MOQ; unit cost; inbound shipping; labels + care + country of origin \u2014 TO CONFIRM",
+        "SPEC CHECKLIST: Veil Mourning Hoodie \u2014 blank brand/style; fabric composition + GSM/oz; colourways; print method + placement; size range + size chart; lead time; MOQ; unit cost; inbound shipping; labels + care + country of origin \u2014 TO CONFIRM",
+        "SPEC CHECKLIST: No Love / Still Here Manifesto Tee \u2014 blank brand/style; fabric composition + GSM/oz; colourways; print method + placement; size range + size chart; lead time; MOQ; unit cost; inbound shipping; labels + care + country of origin \u2014 TO CONFIRM",
+        "SPEC CHECKLIST: Heartless By Choice Tee \u2014 blank brand/style; fabric composition + GSM/oz; colourways; print method + placement; size range + size chart; lead time; MOQ; unit cost; inbound shipping; labels + care + country of origin \u2014 TO CONFIRM",
+        "SPEC CHECKLIST: Trust Nothing. Move Anyway. Tee \u2014 blank brand/style; fabric composition + GSM/oz; colourways; print method + placement; size range + size chart; lead time; MOQ; unit cost; inbound shipping; labels + care + country of origin \u2014 TO CONFIRM",
+        "SPEC CHECKLIST: Heartless 575 Oversized Heavyweight Hoodie \u2014 blank brand/style; fabric composition + GSM/oz; colourways; print method + placement; size range + size chart; lead time; MOQ; unit cost; inbound shipping; labels + care + country of origin \u2014 TO CONFIRM",
+        "SPEC CHECKLIST: Trustless Chains Zip-Up Hoodie \u2014 blank brand/style; fabric composition + GSM/oz; colourways; print method + placement; size range + size chart; lead time; MOQ; unit cost; inbound shipping; labels + care + country of origin \u2014 TO CONFIRM",
+        "SPEC CHECKLIST: Veil Mourning Hoodie \u2014 blank brand/style; fabric composition + GSM/oz; colourways; print method + placement; size range + size chart; lead time; MOQ; unit cost; inbound shipping; labels + care + country of origin \u2014 TO CONFIRM",
+        "SPEC CHECKLIST: No Love / Still Here Manifesto Tee \u2014 blank brand/style; fabric composition + GSM/oz; colourways; print method + placement; size range + size chart; lead time; MOQ; unit cost; inbound shipping; labels + care + country of origin \u2014 TO CONFIRM"
+      ],
+      "proposed_changes": [],
+      "blocked": [],
+      "needs_owner": [
+        "Supplier answers for every checklist item; no spec is stated until confirmed"
+      ],
+      "counts": {
+        "drafts_needing_specs": 10
+      }
+    },
+    {
+      "agent": "GrowthMarketer",
+      "role": "Launch plan draft: teaser + launch-day sequence, dates and discount % TBD",
+      "team": "growth",
+      "findings": [
+        "T-7 teaser, T-5 detail, T-3 waitlist email, T-1 silhouettes, launch-day email/social/reminder",
+        "Launch date NOT IN CONTEXT \u2014 sequence dates cannot be set"
+      ],
+      "proposed_changes": [
+        {
+          "action": "create_discount_DRAFT_ONLY",
+          "code": "WAVE2EARLY",
+          "percentage": "TBD \u2014 owner to supply",
+          "audience": "TBD \u2014 owner to supply",
+          "note": "No discount is created by this code. Organic only: no paid ads proposed."
+        }
+      ],
+      "blocked": [],
+      "needs_owner": [
+        "Launch date",
+        "WAVE2EARLY percentage + audience + dates"
+      ],
+      "counts": {
+        "wave2_products": 10
+      }
+    },
+    {
+      "agent": "PriceLadder",
+      "role": "Price-ladder check: live vs Wave 2 gaps, no price invented",
+      "team": "audit",
+      "findings": [
+        "Live tee floor $26.99, Wave 2 tee floor $29.99, gap $3.00"
+      ],
+      "proposed_changes": [],
+      "blocked": [],
+      "needs_owner": [
+        "Owner confirms whether the Wave 2 tee gap is intentional"
+      ],
+      "counts": {
+        "live_tees": 2,
+        "wave2_tees": 4
+      }
+    },
+    {
+      "agent": "SkuAuditor",
+      "role": "SKU audit: missing, spaced, and duplicated SKUs",
+      "team": "audit",
+      "findings": [
+        "Missing SKU on Teddy Tee \u2014 Deep Purple S",
+        "Missing SKU on Teddy Tee \u2014 Deep Purple M",
+        "Missing SKU on Teddy Tee \u2014 Deep Purple L",
+        "Missing SKU on Teddy Tee \u2014 Deep Purple XL",
+        "Missing SKU on Teddy Shorts \u2014 Deep Purple S",
+        "Missing SKU on Teddy Shorts \u2014 Deep Purple M",
+        "Missing SKU on Teddy Shorts \u2014 Deep Purple L",
+        "Missing SKU on Teddy Shorts \u2014 Deep Purple XL",
+        "Missing SKU on Teddy Hoodie \u2014 Deep Purple S",
+        "Missing SKU on Teddy Hoodie \u2014 Deep Purple M",
+        "Missing SKU on Teddy Hoodie \u2014 Deep Purple L",
+        "Missing SKU on Teddy Hoodie \u2014 Deep Purple XL",
+        "Missing SKU on Teddy Joggers \u2014 Deep Purple XL",
+        "Missing SKU on Teddy Joggers \u2014 Deep Purple S",
+        "Missing SKU on Teddy Joggers \u2014 Deep Purple M",
+        "Missing SKU on Teddy Joggers \u2014 Deep Purple L",
+        "Spaced SKU No Love / Still Here Manifesto Tee: NLA-NLS H-S",
+        "Spaced SKU No Love / Still Here Manifesto Tee: NLA-NLS H-M",
+        "Spaced SKU No Love / Still Here Manifesto Tee: NLA-NLS H-L",
+        "Spaced SKU No Love / Still Here Manifesto Tee: NLA-NLS H-XL",
+        "Duplicate SKU SKU NLA-H575OH-S: Heartless 575 Oversized Heavyweight Hoodie and Heartless 575 Oversized Heavyweight Hoodie",
+        "Duplicate SKU SKU NLA-H575OH-M: Heartless 575 Oversized Heavyweight Hoodie and Heartless 575 Oversized Heavyweight Hoodie",
+        "Duplicate SKU SKU NLA-H575OH-L: Heartless 575 Oversized Heavyweight Hoodie and Heartless 575 Oversized Heavyweight Hoodie",
+        "Duplicate SKU SKU NLA-H575OH-XL: Heartless 575 Oversized Heavyweight Hoodie and Heartless 575 Oversized Heavyweight Hoodie",
+        "Duplicate SKU SKU NLA-TCHAIN-S: Trustless Chains Zip-Up Hoodie and Trustless Chains Zip-Up Hoodie",
+        "Duplicate SKU SKU NLA-TCHAIN-M: Trustless Chains Zip-Up Hoodie and Trustless Chains Zip-Up Hoodie",
+        "Duplicate SKU SKU NLA-TCHAIN-L: Trustless Chains Zip-Up Hoodie and Trustless Chains Zip-Up Hoodie",
+        "Duplicate SKU SKU NLA-TCHAIN-XL: Trustless Chains Zip-Up Hoodie and Trustless Chains Zip-Up Hoodie",
+        "Duplicate SKU SKU NLA-VEILH-S: Veil Mourning Hoodie and Veil Mourning Hoodie",
+        "Duplicate SKU SKU NLA-VEILH-M: Veil Mourning Hoodie and Veil Mourning Hoodie",
+        "Duplicate SKU SKU NLA-VEILH-L: Veil Mourning Hoodie and Veil Mourning Hoodie",
+        "Duplicate SKU SKU NLA-VEILH-XL: Veil Mourning Hoodie and Veil Mourning Hoodie",
+        "Duplicate SKU SKU NLA-NLSH-S: No Love. Still Here. Tee and No Love / Still Here Manifesto Tee",
+        "Duplicate SKU SKU NLA-NLSH-M: No Love. Still Here. Tee and No Love / Still Here Manifesto Tee",
+        "Duplicate SKU SKU NLA-NLSH-L: No Love. Still Here. Tee and No Love / Still Here Manifesto Tee",
+        "Duplicate SKU SKU NLA-NLSH-XL: No Love. Still Here. Tee and No Love / Still Here Manifesto Tee"
+      ],
+      "proposed_changes": [],
+      "blocked": [],
+      "needs_owner": [],
+      "counts": {
+        "missing_sku_variants": 16,
+        "spaced_skus": 4,
+        "duplicate_skus": 16
+      }
+    },
+    {
+      "agent": "ImageAuditor",
+      "role": "Image audit: products with no featured media",
+      "team": "audit",
+      "findings": [
+        "10 of 20 products have no featured image",
+        "NO IMAGE: Heartless 575 Oversized Heavyweight Hoodie (DRAFT)",
+        "NO IMAGE: Trustless Chains Zip-Up Hoodie (DRAFT)",
+        "NO IMAGE: Veil Mourning Hoodie (DRAFT)",
+        "NO IMAGE: No Love / Still Here Manifesto Tee (DRAFT)",
+        "NO IMAGE: Heartless By Choice Tee (DRAFT)",
+        "NO IMAGE: Trust Nothing. Move Anyway. Tee (DRAFT)",
+        "NO IMAGE: Heartless 575 Oversized Heavyweight Hoodie (DRAFT)",
+        "NO IMAGE: Trustless Chains Zip-Up Hoodie (DRAFT)",
+        "NO IMAGE: Veil Mourning Hoodie (DRAFT)",
+        "NO IMAGE: No Love / Still Here Manifesto Tee (DRAFT)"
+      ],
+      "proposed_changes": [],
+      "blocked": [
+        "Launch blocked for image-less products until images are supplied"
+      ],
+      "needs_owner": [],
+      "counts": {
+        "products": 20,
+        "no_image": 10
+      }
+    },
+    {
+      "agent": "DescriptionAuditor",
+      "role": "Description audit: empty descriptions",
+      "team": "audit",
+      "findings": [
+        "4 products have an empty description",
+        "EMPTY DESCRIPTION: Teddy Tee \u2014 Deep Purple (ACTIVE)",
+        "EMPTY DESCRIPTION: Teddy Shorts \u2014 Deep Purple (ACTIVE)",
+        "EMPTY DESCRIPTION: Teddy Hoodie \u2014 Deep Purple (ACTIVE)",
+        "EMPTY DESCRIPTION: Teddy Joggers \u2014 Deep Purple (ACTIVE)"
+      ],
+      "proposed_changes": [],
+      "blocked": [],
+      "needs_owner": [],
+      "counts": {
+        "empty_descriptions": 4
+      }
+    },
+    {
+      "agent": "VariantAuditor",
+      "role": "Variant audit: size ranges per product",
+      "team": "audit",
+      "findings": [
+        "Heartless 575: S, M, L, XL",
+        "Trustless 51/50: S, M, L, XL",
+        "Veil: S, M, L, XL",
+        "Teddy Tee \u2014 Deep Purple: S, M, L, XL",
+        "Teddy Shorts \u2014 Deep Purple: S, M, L, XL",
+        "Teddy Hoodie \u2014 Deep Purple: S, M, L, XL",
+        "Teddy Joggers \u2014 Deep Purple: XL, S, M, L",
+        "Structured Twill Cap: S/M, L/XL",
+        "Heartless 575 Hoodie: S, M, L, XL",
+        "Heartless 575 Oversized Heavyweight Hoodie: S, M, L, XL",
+        "Trustless Chains Zip-Up Hoodie: S, M, L, XL",
+        "Veil Mourning Hoodie: S, M, L, XL",
+        "No Love / Still Here Manifesto Tee: S, M, L, XL",
+        "Heartless By Choice Tee: S, M, L, XL, 2XL",
+        "Trust Nothing. Move Anyway. Tee: S, M, L, XL, 2XL",
+        "Heartless 575 Oversized Heavyweight Hoodie: S, M, L, XL, 2XL",
+        "Trustless Chains Zip-Up Hoodie: S, M, L, XL, 2XL",
+        "Veil Mourning Hoodie: S, M, L, XL, 2XL",
+        "No Love / Still Here Manifesto Tee: S, M, L, XL, 2XL",
+        "No Love. Still Here. Tee: S, M, L, XL"
+      ],
+      "proposed_changes": [],
+      "blocked": [],
+      "needs_owner": [],
+      "counts": {
+        "products": 20
+      }
+    },
+    {
+      "agent": "HandleAuditor",
+      "role": "Handle audit: -1 suffix duplicates",
+      "team": "audit",
+      "findings": [
+        "4 handles end in -1",
+        "-1 HANDLE: heartless-575-oversized-heavyweight-hoodie-1 (Heartless 575 Oversized Heavyweight Hoodie)",
+        "-1 HANDLE: trustless-chains-zip-up-hoodie-1 (Trustless Chains Zip-Up Hoodie)",
+        "-1 HANDLE: veil-mourning-hoodie-1 (Veil Mourning Hoodie)",
+        "-1 HANDLE: no-love-still-here-manifesto-tee-1 (No Love / Still Here Manifesto Tee)"
+      ],
+      "proposed_changes": [],
+      "blocked": [],
+      "needs_owner": [],
+      "counts": {
+        "minus_one_handles": 4
+      }
+    },
+    {
+      "agent": "TagAuditor",
+      "role": "Tag audit: Wave 2 tags, untagged products",
+      "team": "audit",
+      "findings": [
+        "10 Wave 2 tagged, 5 untagged",
+        "UNTAGGED: Teddy Tee \u2014 Deep Purple",
+        "UNTAGGED: Teddy Shorts \u2014 Deep Purple",
+        "UNTAGGED: Teddy Hoodie \u2014 Deep Purple",
+        "UNTAGGED: Teddy Joggers \u2014 Deep Purple",
+        "UNTAGGED: Structured Twill Cap"
+      ],
+      "proposed_changes": [],
+      "blocked": [],
+      "needs_owner": [],
+      "counts": {
+        "wave2_tagged": 10,
+        "untagged": 5
+      }
+    },
+    {
+      "agent": "CollectionPlanner",
+      "role": "Collection proposal only: Wave 2 draft collection, hidden until launch",
+      "team": "catalog",
+      "findings": [
+        "10 Wave 2 products would go in a Wave 2 collection"
+      ],
+      "proposed_changes": [
+        {
+          "action": "create_collection_DRAFT_ONLY",
+          "title": "Wave 2",
+          "visibility": "hidden until owner launch date",
+          "product_count_in_context": 10,
+          "note": "Draft only. No collection is created by this code."
+        }
+      ],
+      "blocked": [],
+      "needs_owner": [
+        "Owner launch date for Wave 2"
+      ],
+      "counts": {
+        "wave2_products": 10
+      }
+    },
+    {
+      "agent": "DiscountAuditor",
+      "role": "Discount audit: only codes present in context are reported",
+      "team": "catalog",
+      "findings": [
+        "No discount codes in context \u2014 liveness is UNVERIFIED, not zero"
+      ],
+      "proposed_changes": [],
+      "blocked": [
+        "Discount liveness cannot be verified from this context"
+      ],
+      "needs_owner": [],
+      "counts": {
+        "discounts_in_context": 0
+      }
+    },
+    {
+      "agent": "BrandVoice",
+      "role": "Brand-voice check: heavyweight claims need a GSM number, or they are flagged",
+      "team": "creative",
+      "findings": [
+        "HEAVYWEIGHT UNVERIFIED: Heartless 575 Oversized Heavyweight Hoodie \u2014 no GSM/oz in description",
+        "HEAVYWEIGHT UNVERIFIED: Heartless 575 Oversized Heavyweight Hoodie \u2014 no GSM/oz in description"
+      ],
+      "proposed_changes": [],
+      "blocked": [],
+      "needs_owner": [
+        "GSM figure for Heartless 575 Oversized Heavyweight Hoodie before calling it heavyweight",
+        "GSM figure for Heartless 575 Oversized Heavyweight Hoodie before calling it heavyweight"
+      ],
+      "counts": {
+        "heavyweight_flags": 2
+      }
+    },
+    {
+      "agent": "ShotList",
+      "role": "Shot list: 4 shots per image-less product",
+      "team": "creative",
+      "findings": [
+        "Heartless 575 Oversized Heavyweight Hoodie: front flat, back flat, detail, worn",
+        "Trustless Chains Zip-Up Hoodie: front flat, back flat, detail, worn",
+        "Veil Mourning Hoodie: front flat, back flat, detail, worn",
+        "No Love / Still Here Manifesto Tee: front flat, back flat, detail, worn",
+        "Heartless By Choice Tee: front flat, back flat, detail, worn",
+        "Trust Nothing. Move Anyway. Tee: front flat, back flat, detail, worn",
+        "Heartless 575 Oversized Heavyweight Hoodie: front flat, back flat, detail, worn",
+        "Trustless Chains Zip-Up Hoodie: front flat, back flat, detail, worn",
+        "Veil Mourning Hoodie: front flat, back flat, detail, worn",
+        "No Love / Still Here Manifesto Tee: front flat, back flat, detail, worn"
+      ],
+      "proposed_changes": [],
+      "blocked": [],
+      "needs_owner": [],
+      "counts": {
+        "products_needing_shots": 10,
+        "shots_total": 40
+      }
+    },
+    {
+      "agent": "MockupBrief",
+      "role": "Mockup brief: square + 4:5, mockups are not photographed product",
+      "team": "creative",
+      "findings": [
+        "MOCKUP BRIEF: Heartless 575 Oversized Heavyweight Hoodie \u2014 square + 4:5, dark ground, match confirmed blank colour only",
+        "MOCKUP BRIEF: Trustless Chains Zip-Up Hoodie \u2014 square + 4:5, dark ground, match confirmed blank colour only",
+        "MOCKUP BRIEF: Veil Mourning Hoodie \u2014 square + 4:5, dark ground, match confirmed blank colour only",
+        "MOCKUP BRIEF: No Love / Still Here Manifesto Tee \u2014 square + 4:5, dark ground, match confirmed blank colour only",
+        "MOCKUP BRIEF: Heartless By Choice Tee \u2014 square + 4:5, dark ground, match confirmed blank colour only",
+        "MOCKUP BRIEF: Trust Nothing. Move Anyway. Tee \u2014 square + 4:5, dark ground, match confirmed blank colour only",
+        "MOCKUP BRIEF: Heartless 575 Oversized Heavyweight Hoodie \u2014 square + 4:5, dark ground, match confirmed blank colour only",
+        "MOCKUP BRIEF: Trustless Chains Zip-Up Hoodie \u2014 square + 4:5, dark ground, match confirmed blank colour only",
+        "MOCKUP BRIEF: Veil Mourning Hoodie \u2014 square + 4:5, dark ground, match confirmed blank colour only",
+        "MOCKUP BRIEF: No Love / Still Here Manifesto Tee \u2014 square + 4:5, dark ground, match confirmed blank colour only"
+      ],
+      "proposed_changes": [],
+      "blocked": [],
+      "needs_owner": [
+        "Blank colour confirmation before mockups are matched to it"
+      ],
+      "counts": {
+        "mockups_needed": 10
+      }
+    },
+    {
+      "agent": "BlankSpec",
+      "role": "Blank spec check: blank type is not in product context, so it is flagged missing",
+      "team": "manufacturing",
+      "findings": [
+        "BLANK MISSING: Heartless 575",
+        "BLANK MISSING: Trustless 51/50",
+        "BLANK MISSING: Veil",
+        "BLANK MISSING: Teddy Tee \u2014 Deep Purple",
+        "BLANK MISSING: Teddy Shorts \u2014 Deep Purple",
+        "BLANK MISSING: Teddy Hoodie \u2014 Deep Purple",
+        "BLANK MISSING: Teddy Joggers \u2014 Deep Purple",
+        "BLANK MISSING: Structured Twill Cap",
+        "BLANK MISSING: Heartless 575 Hoodie",
+        "BLANK MISSING: Heartless 575 Oversized Heavyweight Hoodie",
+        "BLANK MISSING: Trustless Chains Zip-Up Hoodie",
+        "BLANK MISSING: Veil Mourning Hoodie",
+        "BLANK MISSING: No Love / Still Here Manifesto Tee",
+        "BLANK MISSING: Heartless By Choice Tee",
+        "BLANK MISSING: Trust Nothing. Move Anyway. Tee",
+        "BLANK MISSING: Heartless 575 Oversized Heavyweight Hoodie",
+        "BLANK MISSING: Trustless Chains Zip-Up Hoodie",
+        "BLANK MISSING: Veil Mourning Hoodie",
+        "BLANK MISSING: No Love / Still Here Manifesto Tee",
+        "BLANK MISSING: No Love. Still Here. Tee"
+      ],
+      "proposed_changes": [],
+      "blocked": [],
+      "needs_owner": [
+        "Blank brand + style number per product, from the supplier"
+      ],
+      "counts": {
+        "blank_missing": 20
+      }
+    },
+    {
+      "agent": "PrintMethod",
+      "role": "Print-method check: method is not in product context, so it is flagged missing",
+      "team": "manufacturing",
+      "findings": [
+        "PRINT METHOD MISSING: Heartless 575",
+        "PRINT METHOD MISSING: Trustless 51/50",
+        "PRINT METHOD MISSING: Veil",
+        "PRINT METHOD MISSING: Teddy Tee \u2014 Deep Purple",
+        "PRINT METHOD MISSING: Teddy Shorts \u2014 Deep Purple",
+        "PRINT METHOD MISSING: Teddy Hoodie \u2014 Deep Purple",
+        "PRINT METHOD MISSING: Teddy Joggers \u2014 Deep Purple",
+        "PRINT METHOD MISSING: Structured Twill Cap",
+        "PRINT METHOD MISSING: Heartless 575 Hoodie",
+        "PRINT METHOD MISSING: Heartless 575 Oversized Heavyweight Hoodie",
+        "PRINT METHOD MISSING: Trustless Chains Zip-Up Hoodie",
+        "PRINT METHOD MISSING: Veil Mourning Hoodie",
+        "PRINT METHOD MISSING: No Love / Still Here Manifesto Tee",
+        "PRINT METHOD MISSING: Heartless By Choice Tee",
+        "PRINT METHOD MISSING: Trust Nothing. Move Anyway. Tee",
+        "PRINT METHOD MISSING: Heartless 575 Oversized Heavyweight Hoodie",
+        "PRINT METHOD MISSING: Trustless Chains Zip-Up Hoodie",
+        "PRINT METHOD MISSING: Veil Mourning Hoodie",
+        "PRINT METHOD MISSING: No Love / Still Here Manifesto Tee",
+        "PRINT METHOD MISSING: No Love. Still Here. Tee"
+      ],
+      "proposed_changes": [],
+      "blocked": [],
+      "needs_owner": [
+        "Print method per placement, from the supplier"
+      ],
+      "counts": {
+        "print_method_missing": 20
+      }
+    },
+    {
+      "agent": "SizeChart",
+      "role": "Size-chart check: chart is not in product context, so it is flagged missing",
+      "team": "manufacturing",
+      "findings": [
+        "SIZE CHART MISSING: Heartless 575",
+        "SIZE CHART MISSING: Trustless 51/50",
+        "SIZE CHART MISSING: Veil",
+        "SIZE CHART MISSING: Teddy Tee \u2014 Deep Purple",
+        "SIZE CHART MISSING: Teddy Shorts \u2014 Deep Purple",
+        "SIZE CHART MISSING: Teddy Hoodie \u2014 Deep Purple",
+        "SIZE CHART MISSING: Teddy Joggers \u2014 Deep Purple",
+        "SIZE CHART MISSING: Structured Twill Cap",
+        "SIZE CHART MISSING: Heartless 575 Hoodie",
+        "SIZE CHART MISSING: Heartless 575 Oversized Heavyweight Hoodie",
+        "SIZE CHART MISSING: Trustless Chains Zip-Up Hoodie",
+        "SIZE CHART MISSING: Veil Mourning Hoodie",
+        "SIZE CHART MISSING: No Love / Still Here Manifesto Tee",
+        "SIZE CHART MISSING: Heartless By Choice Tee",
+        "SIZE CHART MISSING: Trust Nothing. Move Anyway. Tee",
+        "SIZE CHART MISSING: Heartless 575 Oversized Heavyweight Hoodie",
+        "SIZE CHART MISSING: Trustless Chains Zip-Up Hoodie",
+        "SIZE CHART MISSING: Veil Mourning Hoodie",
+        "SIZE CHART MISSING: No Love / Still Here Manifesto Tee",
+        "SIZE CHART MISSING: No Love. Still Here. Tee"
+      ],
+      "proposed_changes": [],
+      "blocked": [],
+      "needs_owner": [
+        "Size chart with measurements per product"
+      ],
+      "counts": {
+        "size_chart_missing": 20
+      }
+    },
+    {
+      "agent": "LeadTime",
+      "role": "Lead-time check: sample / production / shipping times are not in context",
+      "team": "manufacturing",
+      "findings": [
+        "LEAD TIME MISSING: Heartless 575",
+        "LEAD TIME MISSING: Trustless 51/50",
+        "LEAD TIME MISSING: Veil",
+        "LEAD TIME MISSING: Teddy Tee \u2014 Deep Purple",
+        "LEAD TIME MISSING: Teddy Shorts \u2014 Deep Purple",
+        "LEAD TIME MISSING: Teddy Hoodie \u2014 Deep Purple",
+        "LEAD TIME MISSING: Teddy Joggers \u2014 Deep Purple",
+        "LEAD TIME MISSING: Structured Twill Cap",
+        "LEAD TIME MISSING: Heartless 575 Hoodie",
+        "LEAD TIME MISSING: Heartless 575 Oversized Heavyweight Hoodie",
+        "LEAD TIME MISSING: Trustless Chains Zip-Up Hoodie",
+        "LEAD TIME MISSING: Veil Mourning Hoodie",
+        "LEAD TIME MISSING: No Love / Still Here Manifesto Tee",
+        "LEAD TIME MISSING: Heartless By Choice Tee",
+        "LEAD TIME MISSING: Trust Nothing. Move Anyway. Tee",
+        "LEAD TIME MISSING: Heartless 575 Oversized Heavyweight Hoodie",
+        "LEAD TIME MISSING: Trustless Chains Zip-Up Hoodie",
+        "LEAD TIME MISSING: Veil Mourning Hoodie",
+        "LEAD TIME MISSING: No Love / Still Here Manifesto Tee",
+        "LEAD TIME MISSING: No Love. Still Here. Tee"
+      ],
+      "proposed_changes": [],
+      "blocked": [],
+      "needs_owner": [
+        "Sample, production, and shipping lead times per item"
+      ],
+      "counts": {
+        "lead_time_missing": 20
+      }
+    },
+    {
+      "agent": "CostMargin",
+      "role": "Cost/margin check: prices listed, costs missing, margin is UNVERIFIED",
+      "team": "manufacturing",
+      "findings": [
+        "Heartless 575: price $26.99, unit cost NOT IN CONTEXT, margin UNVERIFIED",
+        "Trustless 51/50: price $26.99, unit cost NOT IN CONTEXT, margin UNVERIFIED",
+        "Veil: price $26.99, unit cost NOT IN CONTEXT, margin UNVERIFIED",
+        "Teddy Tee \u2014 Deep Purple: price $31.75, unit cost NOT IN CONTEXT, margin UNVERIFIED",
+        "Teddy Shorts \u2014 Deep Purple: price $34.99, unit cost NOT IN CONTEXT, margin UNVERIFIED",
+        "Teddy Hoodie \u2014 Deep Purple: price $39.99, unit cost NOT IN CONTEXT, margin UNVERIFIED",
+        "Teddy Joggers \u2014 Deep Purple: price $44.99, unit cost NOT IN CONTEXT, margin UNVERIFIED",
+        "Structured Twill Cap: price $19.75, unit cost NOT IN CONTEXT, margin UNVERIFIED",
+        "Heartless 575 Hoodie: price $49.99, unit cost NOT IN CONTEXT, margin UNVERIFIED",
+        "Heartless 575 Oversized Heavyweight Hoodie: price $54.99, unit cost NOT IN CONTEXT, margin UNVERIFIED",
+        "Trustless Chains Zip-Up Hoodie: price $59.99, unit cost NOT IN CONTEXT, margin UNVERIFIED",
+        "Veil Mourning Hoodie: price $54.99, unit cost NOT IN CONTEXT, margin UNVERIFIED",
+        "No Love / Still Here Manifesto Tee: price $29.99, unit cost NOT IN CONTEXT, margin UNVERIFIED",
+        "Heartless By Choice Tee: price $29.99, unit cost NOT IN CONTEXT, margin UNVERIFIED",
+        "Trust Nothing. Move Anyway. Tee: price $29.99, unit cost NOT IN CONTEXT, margin UNVERIFIED",
+        "Heartless 575 Oversized Heavyweight Hoodie: price $54.99, unit cost NOT IN CONTEXT, margin UNVERIFIED",
+        "Trustless Chains Zip-Up Hoodie: price $59.99, unit cost NOT IN CONTEXT, margin UNVERIFIED",
+        "Veil Mourning Hoodie: price $54.99, unit cost NOT IN CONTEXT, margin UNVERIFIED",
+        "No Love / Still Here Manifesto Tee: price $29.99, unit cost NOT IN CONTEXT, margin UNVERIFIED",
+        "No Love. Still Here. Tee: price $26.99, unit cost NOT IN CONTEXT, margin UNVERIFIED"
+      ],
+      "proposed_changes": [],
+      "blocked": [
+        "Margin cannot be computed until unit costs arrive"
+      ],
+      "needs_owner": [],
+      "counts": {
+        "priced_products": 20
+      }
+    },
+    {
+      "agent": "TeaserPlanner",
+      "role": "Teaser plan: one teaser per Wave 2 product, no product name before T-3",
+      "team": "growth",
+      "findings": [
+        "TEASER: Heartless 575 Oversized Heavyweight Hoodie",
+        "TEASER: Trustless Chains Zip-Up Hoodie",
+        "TEASER: Veil Mourning Hoodie",
+        "TEASER: No Love / Still Here Manifesto Tee",
+        "TEASER: Heartless By Choice Tee",
+        "TEASER: Trust Nothing. Move Anyway. Tee",
+        "TEASER: Heartless 575 Oversized Heavyweight Hoodie",
+        "TEASER: Trustless Chains Zip-Up Hoodie",
+        "TEASER: Veil Mourning Hoodie",
+        "TEASER: No Love / Still Here Manifesto Tee"
+      ],
+      "proposed_changes": [],
+      "blocked": [],
+      "needs_owner": [],
+      "counts": {
+        "teasers": 10
+      }
+    },
+    {
+      "agent": "EmailPlanner",
+      "role": "Email plan only: subjects drafted, nothing sent",
+      "team": "growth",
+      "findings": [
+        "Launch email subject (draft, not sent): Wave 2. Now open.",
+        "Last-call email subject (draft, not sent): Wave 2 does not wait."
+      ],
+      "proposed_changes": [],
+      "blocked": [
+        "No email is sent by this code"
+      ],
+      "needs_owner": [],
+      "counts": {
+        "email_drafts": 2
+      }
+    },
+    {
+      "agent": "SocialPlanner",
+      "role": "Social plan only: copy drafted, nothing posted",
+      "team": "growth",
+      "findings": [
+        "Social draft (not posted): No love. Still here. Wave 2 is live.",
+        "Social draft (not posted): Trust nothing. Move anyway.",
+        "Social draft (not posted): Heartless by choice."
+      ],
+      "proposed_changes": [],
+      "blocked": [
+        "No post is published by this code"
+      ],
+      "needs_owner": [],
+      "counts": {
+        "social_drafts": 3
+      }
+    },
+    {
+      "agent": "DmFunnel",
+      "role": "DM funnel plan only: follow-ups drafted, nothing sent, no re-send of openers",
+      "team": "growth",
+      "findings": [
+        "DM funnel is draft-only; opener re-sends are forbidden by the owner rule"
+      ],
+      "proposed_changes": [],
+      "blocked": [
+        "No DM is sent by this code"
+      ],
+      "needs_owner": [],
+      "counts": {
+        "dm_drafts": 0
+      }
+    },
+    {
+      "agent": "ReplyTriage",
+      "role": "Reply triage: needs live inbox data, otherwise blocked",
+      "team": "growth",
+      "findings": [
+        "No inbox data in context"
+      ],
+      "proposed_changes": [],
+      "blocked": [
+        "Reply triage cannot run without live inbox data"
+      ],
+      "needs_owner": [],
+      "counts": {
+        "replies": 0
+      }
+    },
+    {
+      "agent": "OrderWatch",
+      "role": "Order watch: counts orders actually in context, never assumes zero",
+      "team": "ops",
+      "findings": [
+        "No order data in context \u2014 orders are UNVERIFIED, not zero"
+      ],
+      "proposed_changes": [],
+      "blocked": [
+        "Order count cannot be verified from this context"
+      ],
+      "needs_owner": [],
+      "counts": {
+        "orders_in_context": 0
+      }
+    },
+    {
+      "agent": "StoreWatch",
+      "role": "Store watch: counts sessions only if present in context",
+      "team": "ops",
+      "findings": [
+        "No session data in context \u2014 traffic is UNVERIFIED, not zero"
+      ],
+      "proposed_changes": [],
+      "blocked": [
+        "Session count cannot be verified from this context"
+      ],
+      "needs_owner": [],
+      "counts": {
+        "sessions_in_context": 0
+      }
+    },
+    {
+      "agent": "FinanceLedger",
+      "role": "Finance ledger: integer cents only, from orders actually in context",
+      "team": "ops",
+      "findings": [
+        "No order data \u2014 revenue is UNVERIFIED, not $0"
+      ],
+      "proposed_changes": [],
+      "blocked": [
+        "Revenue cannot be computed without order data"
+      ],
+      "needs_owner": [],
+      "counts": {
+        "orders_in_context": 0
+      }
+    },
+    {
+      "agent": "ComplianceShield",
+      "role": "Compliance scan: flags banned claims in descriptions",
+      "team": "ops",
+      "findings": [
+        "No banned-claim keywords found in descriptions"
+      ],
+      "proposed_changes": [],
+      "blocked": [],
+      "needs_owner": [],
+      "counts": {
+        "compliance_flags": 0
+      }
+    },
+    {
+      "agent": "RiskOfficer",
+      "role": "Approval gate: a change without owner approval on file is blocked",
+      "team": "ops",
+      "findings": [
+        "Approval gate: owner_approved = False"
+      ],
+      "proposed_changes": [],
+      "blocked": [
+        "No owner approval on file in this run \u2014 nothing may be applied"
+      ],
+      "needs_owner": [],
+      "counts": {
+        "approved": 0
+      }
+    },
+    {
+      "agent": "InventoryTracker",
+      "role": "Inventory check: totals actually in context, Printful sync unknown unless stated",
+      "team": "ops",
+      "findings": [
+        "19 of 20 products show totalInventory 0 in context",
+        "Printful sync status is UNVERIFIED unless the context states it per product"
+      ],
+      "proposed_changes": [],
+      "blocked": [],
+      "needs_owner": [],
+      "counts": {
+        "products": 20,
+        "zero_inventory": 19
+      }
+    },
+    {
+      "agent": "SupplierLiaison",
+      "role": "Supplier liaison: email checklist draft for the founder to send",
+      "team": "manufacturing",
+      "findings": [
+        "Supplier email draft (not sent): blank, fabric, print, sizes, lead time, MOQ, unit cost, shipping, labels"
+      ],
+      "proposed_changes": [],
+      "blocked": [
+        "No supplier email is sent by this code"
+      ],
+      "needs_owner": [],
+      "counts": {
+        "supplier_checklists": 1
+      }
+    },
+    {
+      "agent": "CustomerService",
+      "role": "Customer service: FAQ needs owner answers, nothing sent to customers",
+      "team": "ops",
+      "findings": [
+        "FAQ draft needs owner answers for shipping, made-to-order timing, and returns"
+      ],
+      "proposed_changes": [],
+      "blocked": [
+        "No customer message is sent by this code"
+      ],
+      "needs_owner": [
+        "Made-to-order timing wording",
+        "Returns wording"
+      ],
+      "counts": {
+        "faq_drafts": 1
+      }
+    },
+    {
+      "agent": "SwarmCommander",
+      "role": "Commander: runs agents in order, builds one change package, never applies it",
+      "team": "command",
+      "findings": [
+        "Swarm roster (excluding commander): 35 agents"
+      ],
+      "proposed_changes": [],
+      "blocked": [],
+      "needs_owner": [],
+      "counts": {
+        "agents_excluding_commander": 35,
+        "total_agents": 36
+      }
+    }
+  ],
+  "proposed_changes": [
+    {
+      "action": "merge_duplicates_UNDECIDED",
+      "title": "Heartless 575 Oversized Heavyweight Hoodie",
+      "keep_clean_handle": "heartless-575-oversized-heavyweight-hoodie",
+      "keep_richest": "heartless-575-oversized-heavyweight-hoodie-1",
+      "note": "Owner must pick one; the other is deleted only after that pick."
+    },
+    {
+      "action": "merge_duplicates_UNDECIDED",
+      "title": "Trustless Chains Zip-Up Hoodie",
+      "keep_clean_handle": "trustless-chains-zip-up-hoodie",
+      "keep_richest": "trustless-chains-zip-up-hoodie-1",
+      "note": "Owner must pick one; the other is deleted only after that pick."
+    },
+    {
+      "action": "merge_duplicates_UNDECIDED",
+      "title": "Veil Mourning Hoodie",
+      "keep_clean_handle": "veil-mourning-hoodie",
+      "keep_richest": "veil-mourning-hoodie-1",
+      "note": "Owner must pick one; the other is deleted only after that pick."
+    },
+    {
+      "action": "merge_duplicates_UNDECIDED",
+      "title": "No Love / Still Here Manifesto Tee",
+      "keep_clean_handle": "no-love-still-here-manifesto-tee",
+      "keep_richest": "no-love-still-here-manifesto-tee-1",
+      "note": "Owner must pick one; the other is deleted only after that pick."
+    },
+    {
+      "action": "create_discount_DRAFT_ONLY",
+      "code": "WAVE2EARLY",
+      "percentage": "TBD \u2014 owner to supply",
+      "audience": "TBD \u2014 owner to supply",
+      "note": "No discount is created by this code. Organic only: no paid ads proposed."
+    },
+    {
+      "action": "create_collection_DRAFT_ONLY",
+      "title": "Wave 2",
+      "visibility": "hidden until owner launch date",
+      "product_count_in_context": 10,
+      "note": "Draft only. No collection is created by this code."
+    }
+  ],
+  "blocked": [
+    "Launch blocked for image-less products until images are supplied",
+    "Discount liveness cannot be verified from this context",
+    "Margin cannot be computed until unit costs arrive",
+    "No email is sent by this code",
+    "No post is published by this code",
+    "No DM is sent by this code",
+    "Reply triage cannot run without live inbox data",
+    "Order count cannot be verified from this context",
+    "Session count cannot be verified from this context",
+    "Revenue cannot be computed without order data",
+    "No owner approval on file in this run \u2014 nothing may be applied",
+    "No supplier email is sent by this code",
+    "No customer message is sent by this code"
+  ],
+  "needs_owner": [
+    "Owner picks the keeper for each duplicate pair; no delete is proposed as decided",
+    "Keeper pick for Heartless 575 Oversized Heavyweight Hoodie",
+    "Keeper pick for Trustless Chains Zip-Up Hoodie",
+    "Keeper pick for Veil Mourning Hoodie",
+    "Keeper pick for No Love / Still Here Manifesto Tee",
+    "Artwork files for every image-less product",
+    "Owner approves or edits all copy before it goes live",
+    "Supplier answers for every checklist item; no spec is stated until confirmed",
+    "Launch date",
+    "WAVE2EARLY percentage + audience + dates",
+    "Owner confirms whether the Wave 2 tee gap is intentional",
+    "Owner launch date for Wave 2",
+    "GSM figure for Heartless 575 Oversized Heavyweight Hoodie before calling it heavyweight",
+    "Blank colour confirmation before mockups are matched to it",
+    "Blank brand + style number per product, from the supplier",
+    "Print method per placement, from the supplier",
+    "Size chart with measurements per product",
+    "Sample, production, and shipping lead times per item",
+    "Made-to-order timing wording",
+    "Returns wording"
+  ]
+}
